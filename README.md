@@ -1,2 +1,2 @@
-# reveal-internship
-This repository is a mixed repository for Reveal SRL internship. 
+# BaKGen
+A repository for Background Knowledge Generator. 
