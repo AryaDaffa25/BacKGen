@@ -20,7 +20,7 @@ def get_pk_from_str_klp(str_klp):
     return str_klp.split('|BS:cleaned_pk| ')[1].split('|ES|')[0].strip()
 
 # Function to get pk candidate per polarity
-def get_pk_candidate_per_polarity(splitted_frame_klp_path,medoid_klp_path,lib_folder_path,top_n=1):
+def get_bk_candidate_per_polarity(splitted_frame_klp_path,medoid_klp_path,lib_folder_path,top_n=1):
     list_splitted_frame_klp = get_list_klp(splitted_frame_klp_path)
     list_medoid_klp = get_list_klp(medoid_klp_path)
     list_medoid_pk = [get_pk_from_str_klp(str_klp) for str_klp in list_medoid_klp]
@@ -34,7 +34,7 @@ def get_pk_candidate_per_polarity(splitted_frame_klp_path,medoid_klp_path,lib_fo
     return list_pk_candidate
 
 # Function to get list top_n pk per polarity
-def get_pk_per_polarity(list_pk_candidate,pk_polarity,top_n=1):
+def get_bk_per_polarity(list_pk_candidate,pk_polarity,top_n=1):
     # Get list id
     list_id = [i[0] for i in list_pk_candidate]
     list_id = sorted(set(list_id), key=list_id.index)

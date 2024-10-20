@@ -5,10 +5,7 @@ current_path = os.path.dirname(os.getcwd())
 sys.path.append(current_path)
 
 # Import libraries
-try:
-    from get_pk.get_pk_utility import get_pk_candidate_per_polarity, get_pk_per_polarity
-except:
-    from get_pk_utility import get_pk_candidate_per_polarity, get_pk_per_polarity
+from get_bk.get_bk_utility import get_bk_candidate_per_polarity, get_bk_per_polarity
 from converter.io import write_jsonl
 import argparse
 
@@ -16,11 +13,11 @@ import argparse
 def get_pk(splitted_frame_klp_path,negative_pk_klp_path,neutral_pk_klp_path,positive_pk_klp_path,output_file_path,lib_folder_path,top_n=1,return_result="yes"):
     # Get pk for each polarity
     print("Processing to get pk candidate of negative polarity.")
-    negative_pk = get_pk_per_polarity(get_pk_candidate_per_polarity(splitted_frame_klp_path,negative_pk_klp_path,lib_folder_path,top_n),"negative",top_n)
+    negative_pk = get_bk_per_polarity(get_bk_candidate_per_polarity(splitted_frame_klp_path,negative_pk_klp_path,lib_folder_path,top_n),"negative",top_n)
     print("Processing to get pk candidate of neutral polarity.")
-    neutral_pk = get_pk_per_polarity(get_pk_candidate_per_polarity(splitted_frame_klp_path,neutral_pk_klp_path,lib_folder_path,top_n),"neutral",top_n)
+    neutral_pk = get_bk_per_polarity(get_bk_candidate_per_polarity(splitted_frame_klp_path,neutral_pk_klp_path,lib_folder_path,top_n),"neutral",top_n)
     print("Processing to get pk candidate of positive polarity.")
-    positive_pk = get_pk_per_polarity(get_pk_candidate_per_polarity(splitted_frame_klp_path,positive_pk_klp_path,lib_folder_path,top_n),"positive",top_n)
+    positive_pk = get_bk_per_polarity(get_bk_candidate_per_polarity(splitted_frame_klp_path,positive_pk_klp_path,lib_folder_path,top_n),"positive",top_n)
     print("Process for getting pk candidate of each polarity is finished. Now we are processing to get top_n pk.")
     # Check if the length of list of pk is different
     if len(negative_pk) != len(neutral_pk) or len(negative_pk) != len(positive_pk) or len(neutral_pk) != len(positive_pk):
