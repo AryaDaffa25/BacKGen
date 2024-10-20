@@ -1,29 +1,3 @@
-def write_pk(pk_list):
-    if pk_list == "No background knowledge can be provided.":
-        return pk_list
-    else:
-        prompt_pk = ""
-        for i in range(len(pk_list)):
-            if i < len(pk_list)/2:
-                polarity = "Negative"
-            else:
-                polarity = "Positive"
-            prompt_pk = f"{prompt_pk}{i+1}. '{pk_list[i]}' (Sentiment: {polarity})\n"
-        return prompt_pk
-
-def write_pk_polarity_style(pk_list):
-    if pk_list == "No background knowledge can be provided.":
-        return "Background Knowledge: No background knowledge can be provided."
-    else:
-        prompt_pk = ""
-        for i in range(len(pk_list)):
-            if i < len(pk_list)/2:
-                polarity = "Negative"
-            else:
-                polarity = "Positive"
-            prompt_pk = f"{prompt_pk}Background Knowledge {i+1}:\n- Text: '{pk_list[i]}'\nPolarity: {polarity}\n"
-        return prompt_pk
-
 def write_example(negative_example_list,positive_example_list,promp_variant):
     if negative_example_list == "No example can be provided.":
         return negative_example_list
@@ -91,7 +65,7 @@ def write_input_frame_only(frame_list):
             prompt_input_frame = f"{prompt_input_frame}{i+1}. {frame_label}\n\t- Lexical Unit (LU): {lu_span}\n"
     return prompt_input_frame
 
-def get_pk_example(polarity):
+def get_bk_example(polarity):
     if polarity == "negative":
         frame_definition_list = [['Causation','A Cause causes an Effect.'],['Destroying','A Destroyer (a conscious entity) or Cause (an event, or an entity involved in such an event) affects the Patient negatively so that the Patient no longer exists.'],['Cause_to_end','An Agent or Cause causes a Process or State to end.'],['Cause_to_amalgamate','These words refer to an Agent joining Parts to form a Whole.']]
         frame_list = ['Causation(LU(putting),Cause(water pollution),Effect(our health),Cause(at risk unsafe water kills more people each year than war and all other forms of violence combined))','Destroying(LU(destroying),Cause(pollution in all it s forms),Cause(which),Patient(our environment and health))','Cause_to_end(LU(end),Cause(technology),State(pollution of the air water soil))','Cause_to_amalgamate(LU(combined),Parts(all other forms of violence))']

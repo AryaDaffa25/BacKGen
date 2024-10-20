@@ -7,7 +7,7 @@ sys.path.append(current_path)
 # Import library
 from llm_inference.get_prompt_utility import *
 
-def get_prompt_pk_ablation(frame_list,text_list,frame_definition_list,polarity,prompt_variant=1):
+def get_prompt_bk_ablation(frame_list,text_list,frame_definition_list,polarity,prompt_variant=1):
     prompt_frame_definition = write_frame_definition(frame_definition_list)
     prompt_input_text = write_input_text(frame_list,text_list)
     prompt_input_text_only = write_input_text_only(text_list)
