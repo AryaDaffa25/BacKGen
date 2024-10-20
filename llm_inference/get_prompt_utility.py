@@ -1,3 +1,29 @@
+def write_bk(bk_list):
+    if bk_list == "No background knowledge can be provided.":
+        return bk_list
+    else:
+        prompt_bk = ""
+        for i in range(len(bk_list)):
+            if i < len(bk_list)/2:
+                polarity = "Negative"
+            else:
+                polarity = "Positive"
+            prompt_bk = f"{prompt_bk}{i+1}. '{bk_list[i]}' (Sentiment: {polarity})\n"
+        return prompt_bk
+
+def write_bk_polarity_style(bk_list):
+    if bk_list == "No background knowledge can be provided.":
+        return "Background Knowledge: No background knowledge can be provided."
+    else:
+        prompt_bk = ""
+        for i in range(len(bk_list)):
+            if i < len(bk_list)/2:
+                polarity = "Negative"
+            else:
+                polarity = "Positive"
+            prompt_bk = f"{prompt_bk}Background Knowledge {i+1}:\n- Text: '{bk_list[i]}'\nPolarity: {polarity}\n"
+        return prompt_bk
+
 def write_example(negative_example_list,positive_example_list,promp_variant):
     if negative_example_list == "No example can be provided.":
         return negative_example_list
