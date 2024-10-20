@@ -34,23 +34,11 @@ def get_prompt(list_inference_input,prompt_task_type,prompt_variant=1):
         return get_prompt_bk_with_example(list_inference_input[0],list_inference_input[1],list_inference_input[2],list_inference_input[3],prompt_variant)
     elif prompt_task_type == "bk_ablation":
         return get_prompt_bk_ablation(list_inference_input[0],list_inference_input[1],list_inference_input[2],list_inference_input[3],prompt_variant)
-    elif prompt_task_type == "splitted_stc_zero_without_explanation":
-        return get_prompt_splitted_stc_zero_without_explanation(list_inference_input[0],list_inference_input[1],prompt_variant)
-    elif prompt_task_type == "splitted_stc_pk_without_explanation":
-        return get_prompt_splitted_stc_pk_without_explanation(list_inference_input[0],list_inference_input[1],list_inference_input[2],prompt_variant)
-    elif prompt_task_type == "splitted_stc_ex_without_explanation":
-        return get_prompt_splitted_stc_ex_without_explanation(list_inference_input[0],list_inference_input[1],list_inference_input[2],list_inference_input[3],prompt_variant)
-    elif prompt_task_type == "splitted_stc_pk_ex_without_explanation":
-        return get_prompt_splitted_stc_pk_ex_without_explanation(list_inference_input[0],list_inference_input[1],list_inference_input[2],list_inference_input[3],list_inference_input[4],prompt_variant)
-    elif prompt_task_type == "splitted_stc_ex_pk_without_explanation":
-        return get_prompt_splitted_stc_ex_pk_without_explanation(list_inference_input[0],list_inference_input[1],list_inference_input[2],list_inference_input[3],list_inference_input[4],prompt_variant)
-    elif prompt_task_type == "splitted_stc_zero_with_explanation":
-        return get_prompt_splitted_stc_zero_with_explanation(list_inference_input[0],list_inference_input[1],prompt_variant)
-    elif prompt_task_type == "splitted_stc_pk_with_explanation":
-        return get_prompt_splitted_stc_pk_with_explanation(list_inference_input[0],list_inference_input[1],list_inference_input[2],prompt_variant)
-    elif prompt_task_type == "splitted_stc_ex_with_explanation":
-        return get_prompt_splitted_stc_ex_with_explanation(list_inference_input[0],list_inference_input[1],list_inference_input[2],list_inference_input[3],prompt_variant)
-    elif prompt_task_type == "splitted_stc_pk_ex_with_explanation":
-        return get_prompt_splitted_stc_pk_ex_with_explanation(list_inference_input[0],list_inference_input[1],list_inference_input[2],list_inference_input[3],list_inference_input[4],prompt_variant)
+    elif prompt_task_type == "spc_zero_with_explanation":
+        return get_prompt_spc_zero_with_explanation(list_inference_input[0],list_inference_input[1],prompt_variant)
+    elif prompt_task_type == "spc_pk_with_explanation":
+        return get_prompt_spc_bk_with_explanation(list_inference_input[0],list_inference_input[1],list_inference_input[2],prompt_variant)
+    elif prompt_task_type == "spc_few_with_explanation":
+        return get_prompt_spc_few_with_explanation(list_inference_input[0],list_inference_input[1],list_inference_input[2],list_inference_input[3],prompt_variant)
     else:
         raise ValueError("Wrong `prompt_task_type`. Please check on `get_prompt.py` for the correct params or define your own prompt there.")
