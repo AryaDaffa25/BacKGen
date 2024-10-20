@@ -1,9 +1,10 @@
-# Add library path
+# Add BacKGen's libraries path
 import sys
-sys.path.append("/Users/okkyibrohim/github-okky/reveal-internship")
-sys.path.append("/Users/okkyibrohim/github-okky/reveal-internship/get_pk")
+import os
+current_path = os.path.dirname(os.getcwd())
+sys.path.append(current_path)
 
-# Import libraries
+# Import library
 from converter.io import read_jsonl, write_jsonl
 
 ##################################

@@ -1,3 +1,10 @@
+# Add BacKGen's libraries path
+import sys
+import os
+current_path = os.path.dirname(os.getcwd())
+sys.path.append(current_path)
+
+# Import library
 from converter.io import read_jsonl,write_jsonl
 
 def filter_sentiment_splitted_st(splitted_st_input_path,negative_output_path,positive_output_path):

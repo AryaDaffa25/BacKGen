@@ -1,8 +1,8 @@
-# Add library path
-import os
-# os.environ['TRANSFORMERS_CACHE'] = '/mnt/data/model_cache/'
+# Add BacKGen's libraries path
 import sys
-sys.path.append("/beegfs/home/mibrohim/reveal")
+import os
+current_path = os.path.dirname(os.getcwd())
+sys.path.append(current_path)
 
 # Import libraries
 from converter.io import read_jsonl, write_jsonl

@@ -1,3 +1,10 @@
+# Add BacKGen's libraries path
+import sys
+import os
+current_path = os.path.dirname(os.getcwd())
+sys.path.append(current_path)
+
+# Import libraries
 from transformers import AutoTokenizer, AutoModelForCausalLM
 import numpy as np
 from huggingface_hub import login

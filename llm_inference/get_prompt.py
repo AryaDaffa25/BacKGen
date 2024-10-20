@@ -1,3 +1,10 @@
+# Add BacKGen's libraries path
+import sys
+import os
+current_path = os.path.dirname(os.getcwd())
+sys.path.append(current_path)
+
+# Import libraries
 from llm_inference.get_prompt_utility import *
 from llm_inference.get_prompt_splitted_stc import *
 from llm_inference.get_prompt_pk_ablation import get_prompt_pk_ablation

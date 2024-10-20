@@ -1,8 +1,10 @@
-# Add library path
+# Add BacKGen's libraries path
 import sys
-sys.path.append("/Users/okkyibrohim/github-okky/reveal-internship")
+import os
+current_path = os.path.dirname(os.getcwd())
+sys.path.append(current_path)
 
-# Import library
+# Import libraries
 from clusterer.calculate_similarity import calculate_similarity
 import pandas as pd
 

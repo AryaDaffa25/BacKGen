@@ -1,3 +1,10 @@
+# Add BacKGen's libraries path
+import sys
+import os
+current_path = os.path.dirname(os.getcwd())
+sys.path.append(current_path)
+
+# Import library
 from llm_inference.get_prompt_utility import *
 
 def get_prompt_splitted_stc_zero_without_explanation(text,st_span,prompt_variant=1):

@@ -1,3 +1,10 @@
+# Add BacKGen's libraries path
+import sys
+import os
+current_path = os.path.dirname(os.getcwd())
+sys.path.append(current_path)
+
+# Import library
 from llm_inference.get_prompt_utility import *
 
 def get_prompt_pk_ablation(frame_list,text_list,frame_definition_list,polarity,prompt_variant=1):

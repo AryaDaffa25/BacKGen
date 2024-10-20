@@ -1,3 +1,10 @@
+# Add BacKGen's libraries path
+import sys
+import os
+current_path = os.path.dirname(os.getcwd())
+sys.path.append(current_path)
+
+# Import libraries
 import json
 from converter.io import read_jsonl
 from converter.converter_utility import clean_preprocessing
