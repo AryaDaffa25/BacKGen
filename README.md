@@ -1,2 +1,2 @@
-# BacKGen
-A Background Kwnoledge Generator
+# reveal-internship
+This repository is a mixed repository for Reveal SRL internship. 
