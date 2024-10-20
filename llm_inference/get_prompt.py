@@ -9,82 +9,6 @@ from llm_inference.get_prompt_utility import *
 from llm_inference.get_prompt_splitted_stc import *
 from llm_inference.get_prompt_pk_ablation import get_prompt_pk_ablation
 
-def get_prompt_sentiment_zero_with_explanation(text,prompt_variant=1):
-    if prompt_variant == 1:
-        prompt = f"Given the text below, please classify whether the sentiment of the text is 'positive', 'neutral', or 'negative' and explain the reason in a single sentence.\nText = {text}\nAnswer = "
-        return prompt
-    else:
-        raise ValueError(f"You choose variant {prompt_variant} but we do not have it in get_prompt_ste_zero_without_pk function. Please define your variant in that function.")
-
-def get_prompt_sentiment_pk_with_explanation(text,pk_list,prompt_variant=1):
-    if prompt_variant == 1:
-        prompt = f"Given the text and the prototypical knowledge list below, please please classify whether the sentiment of the text is 'positive', 'neutral', or 'negative' and explain the reason in a single sentence. You can use the prototypical knowledge as the general context when you classify the sentiment of the text and explain the reason for your classification result.\nText = {text}\nPrototypical Knowledge List = {str(pk_list)}\nAnswer = "
-        return prompt
-    else:
-        raise ValueError(f"You choose variant {prompt_variant} but we do not have it in get_prompt_ste_zero_without_pk function. Please define your variant in that function.")
-
-def get_prompt_sentiment_zero_without_explanation(text,prompt_variant=1):
-    if prompt_variant == 1:
-        prompt = f"Given the text below, please classify whether the sentiment of the text is 'positive', 'neutral', or 'negative' without any explanation.\nText = {text}\nAnswer = "
-        return prompt
-    else:
-        raise ValueError(f"You choose variant {prompt_variant} but we do not have it in get_prompt_ste_zero_without_pk function. Please define your variant in that function.")
-
-def get_prompt_stc_zero_with_explanation(text,ste_list,prompt_variant=1):
-    # Get sentiment phrase list
-    sentiment_phrase = [ste[0] for ste in ste_list]
-    if prompt_variant == 1:
-        prompt = f"Given the text and its list of sentiment phrases below,  please determine the sentiment subjectivity for each sentiment phrase whether it is 'positive' or 'negative' and explain in a single sentence for each of them.\nText = {text}\nSentiment Phrase List = {str(sentiment_phrase)}\nAnswer = "
-        return prompt
-    elif prompt_variant == 2:
-        prompt = f"Given the text and its list of sentiment phrases below,  please determine the sentiment subjectivity for each sentiment phrase whether it is 'positive' or 'negative' and explain in a single sentence for each of them. Please answer by giving two lists i.e., a list of sentiment subjectivity classification and a list of your explanation.\nText = {text}\nSentiment Phrase List = {str(sentiment_phrase)}\nAnswer = "
-        return prompt
-    elif prompt_variant == 3:
-        prompt = f"Given the text and its list of sentiment phrases below, determine the sentiment subjectivity for each sentiment phrase whether it is 'positive' or 'negative' and explain in a single sentence for each of them. Please answer with the format ['sentiment subjectivity', 'explanation'].\nText = {text}\nSentiment Phrase List = {str(sentiment_phrase)}\nAnswer = "
-        return prompt
-    else:
-        raise ValueError(f"You choose variant {prompt_variant} but we do not have it in get_prompt_ste_zero_without_pk function. Please define your variant in that function.")
-
-def get_prompt_stc_pk_with_explanation(text,ste_list,pk_list,prompt_variant=1):
-    # Get sentiment phrase list
-    sentiment_phrase = [ste[0] for ste in ste_list]
-    if prompt_variant == 1:
-        prompt = f"Given the text and its list of sentiment phrases below, determine the sentiment subjectivity for each sentiment phrase whether it is 'positive' or 'negative' and explain in a single sentence for each of them. Please answer with the format ['sentiment subjectivity', 'explanation']. To help you do this task, we also provided a list of background knowledge about sentiment stereotypes that you can use as the context when you classify the sentiment subjectivity of the term given and explain the reason for your classification result.\nText = {text}\nSentiment Phrase List = {str(sentiment_phrase)}\nBackground Knowledge List = {str(pk_list)}\nAnswer = "
-        return prompt
-    else:
-        raise ValueError(f"You choose variant {prompt_variant} but we do not have it in get_prompt_ste_zero_without_pk function. Please define your variant in that function.")
-
-def get_prompt_ste_zero_with_explanation(text,prompt_variant=1):
-    if prompt_variant == 1:
-        prompt = f"Given the text below, please extract all sentiment terms and its polarities with the format ['sentiment term', 'polarity'] where the polarity options is ['positive', 'negative']. Give your explanation for each sentiment term and polarity pair extracted in a single sentence. If no sentiment term exists, then only answer '[]' without explanation.\nText = {text}\nAnswer = "
-        return prompt
-    else:
-        raise ValueError(f"You choose variant {prompt_variant} but we do not have it in get_prompt_ste_zero_without_pk function. Please define your variant in that function.")
-
-def get_prompt_pk_without_example(frame_list,text_list,frame_definition_list,polarity,prompt_variant=1):
-    if prompt_variant == 1:
-        prompt_frame_definition = write_frame_definition(frame_definition_list)
-        prompt_input_text = write_input_text(frame_list,text_list)
-        prompt = f"Write a short paragraph expressing general background knowledge that reflects stereotypical information, based on the input sentences provided. These sentences are grouped by shared situations (or frames) modeled according to Frame Semantics Theory. Each input sentence explicitly indicates the Lexical Unit (evoking the frames) and the corresponding role. Definitions of the frames will also be provided to guide the generation. Ensure that the generated text conveys a {polarity} sentiment and the reason of the sentiment should be made explicit.\n\nHere are the definitions of the involved frame(s):\n{prompt_frame_definition}\nHere are the input texts:\n{prompt_input_text}"
-        return prompt
-    elif prompt_variant == 2:
-        prompt_frame_definition = write_frame_definition(frame_definition_list)
-        prompt_input_text = write_input_text(frame_list,text_list)
-        prompt = f"Write one sentence expressing general background knowledge that reflects stereotypical information, based on the input sentences provided. These sentences are grouped by shared situations (or frames) modeled according to Frame Semantics Theory. Each input sentence explicitly indicates the Lexical Unit (evoking the frames) and the corresponding role. Definitions of the frames will also be provided to guide the generation. Ensure that the generated text conveys a {polarity} sentiment and the reason of the sentiment should be made explicit.\n\nHere are the definitions of the involved frame(s):\n{prompt_frame_definition}\nHere are the input texts:\n{prompt_input_text}"
-        return prompt
-    elif prompt_variant == 3:
-        prompt_frame_definition = write_frame_definition(frame_definition_list)
-        prompt_input_text = write_input_text(frame_list,text_list)
-        prompt = f"Task: Write a short paragraph expressing general background knowledge about the world, based on the input sentences provided.\n\nInstructions:\n- Ensure that the generated text conveys a {polarity} sentiment and the reason for the sentiment should be made explicit.\n- Consider all input sentences, which are grouped according to frames defined by the Frame Semantics Theory. In each sentence, the Lexical Units (evoking the frames) and the corresponding roles are made explicit.\n- Consider the frame’s definitions, provided to guide the generalization process.\n- Do not explicitly mention the input prompt as the user is not aware of it.\n\nFrame(s) definition:\n{prompt_frame_definition}\nInput text(s):\n{prompt_input_text}"
-        return prompt
-    elif prompt_variant == 4:
-        prompt_frame_definition = write_frame_definition(frame_definition_list)
-        prompt_input_text = write_input_text(frame_list,text_list)
-        prompt = f"Task: Write one sentence expressing general background knowledge about the world, based on the input sentences provided.\n\nInstructions:\n- Ensure that the generated text conveys a {polarity} sentiment and the reason for the sentiment should be made explicit.\n- Consider all input sentences, which are grouped according to frames defined by the Frame Semantics Theory. In each sentence, the Lexical Units (evoking the frames) and the corresponding roles are made explicit.\n- Consider the frame’s definitions, provided to guide the generalization process.\n- Do not explicitly mention the input prompt as the user is not aware of it.\n\nFrame(s) definition:\n{prompt_frame_definition}\nInput text(s):\n{prompt_input_text}"
-        return prompt
-    else:
-        raise ValueError(f"You choose variant {prompt_variant} but we do not have it in get_prompt_pk_without_example function. Please define your variant in that function.")
-
 def get_prompt_pk_with_example(frame_list,text_list,frame_definition_list,polarity,prompt_variant=1):
     # Generate pairs of frame semantics and their text sources for variant 2
     for i in range(len(frame_list)):
@@ -123,13 +47,7 @@ def get_prompt_pk_with_example(frame_list,text_list,frame_definition_list,polari
         raise ValueError(f"You choose variant {prompt_variant} but we do not have it in get_prompt_pk_with_example function. Please define your variant in that function.")
 
 def get_prompt(list_inference_input,prompt_task_type,prompt_variant=1):
-    if prompt_task_type == "sentiment_zero_with_explanation":
-        return get_prompt_sentiment_zero_with_explanation(list_inference_input[0],prompt_variant)
-    elif prompt_task_type == "sentiment_pk_with_explanation":
-        return get_prompt_sentiment_pk_with_explanation(list_inference_input[0],list_inference_input[1],prompt_variant)
-    elif prompt_task_type == "sentiment_zero_without_explanation":
-        return get_prompt_sentiment_zero_without_explanation(list_inference_input[0],prompt_variant)
-    elif prompt_task_type == "splitted_stc_zero_without_explanation":
+    if prompt_task_type == "splitted_stc_zero_without_explanation":
         return get_prompt_splitted_stc_zero_without_explanation(list_inference_input[0],list_inference_input[1],prompt_variant)
     elif prompt_task_type == "splitted_stc_pk_without_explanation":
         return get_prompt_splitted_stc_pk_without_explanation(list_inference_input[0],list_inference_input[1],list_inference_input[2],prompt_variant)
@@ -147,16 +65,6 @@ def get_prompt(list_inference_input,prompt_task_type,prompt_variant=1):
         return get_prompt_splitted_stc_ex_with_explanation(list_inference_input[0],list_inference_input[1],list_inference_input[2],list_inference_input[3],prompt_variant)
     elif prompt_task_type == "splitted_stc_pk_ex_with_explanation":
         return get_prompt_splitted_stc_pk_ex_with_explanation(list_inference_input[0],list_inference_input[1],list_inference_input[2],list_inference_input[3],list_inference_input[4],prompt_variant)
-    elif prompt_task_type == "stc_zero_with_explanation":
-        return get_prompt_stc_zero_with_explanation(list_inference_input[0],list_inference_input[1],prompt_variant)
-    elif prompt_task_type == "stc_pk_with_explanation":
-        return get_prompt_stc_pk_with_explanation(list_inference_input[0],list_inference_input[1],list_inference_input[2],prompt_variant)
-    elif prompt_task_type == "ste_zero_with_explanation":
-        return get_prompt_ste_zero_with_explanation(list_inference_input[0],prompt_variant)
-    elif prompt_task_type == "pk_with_example":
-        return get_prompt_pk_with_example(list_inference_input[0],list_inference_input[1],list_inference_input[2],list_inference_input[3],prompt_variant)
-    elif prompt_task_type == "pk_without_example":
-        return get_prompt_pk_without_example(list_inference_input[0],list_inference_input[1],list_inference_input[2],list_inference_input[3],prompt_variant)
     elif prompt_task_type == "pk_ablation":
         return get_prompt_pk_ablation(list_inference_input[0],list_inference_input[1],list_inference_input[2],list_inference_input[3],prompt_variant)
     else:
