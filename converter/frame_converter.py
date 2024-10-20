@@ -142,7 +142,7 @@ def split_frame_jsonl2klp(input_file_path,output_file_path,bracket_type):
             output.write(f"{klp}\n")
         print(f"The splitted frame .klp file has been saved in {output_file_path}")
 
-def jsonlpk2klp(input_file_path,output_file_path):
+def jsonlbk2klp(input_file_path,output_file_path):
     list_frame = read_jsonl(input_file_path)
     with open(output_file_path,"w",newline=None) as output:
         for frame in list_frame:
@@ -152,7 +152,7 @@ def jsonlpk2klp(input_file_path,output_file_path):
                 medoid_syntax_tree = frame.get("medoid_syntax_tree")
                 cluster_id = frame.get("cluster_id")
                 polarity_label = frame.get("polarity_label")
-                cleaned_pk = frame.get("cleaned_answer")
-                klp = f"{medoid_frame_label} |BT:frame_syntaxtree| {medoid_syntax_tree} |ET| |BS:cluster_id| {cluster_id} |ES| |BS:polarity_label| {polarity_label} |ES| |BS:list_frame_symbolic| {list_frame_symbolic} |ES| |BS:cleaned_pk| {cleaned_pk} |ES|"
+                cleaned_bk = frame.get("cleaned_answer")
+                klp = f"{medoid_frame_label} |BT:frame_syntaxtree| {medoid_syntax_tree} |ET| |BS:cluster_id| {cluster_id} |ES| |BS:polarity_label| {polarity_label} |ES| |BS:list_frame_symbolic| {list_frame_symbolic} |ES| |BS:cleaned_bk| {cleaned_bk} |ES|"
                 output.write(f"{klp}\n")
         print(f"The .klp file has been saved in {output_file_path}")

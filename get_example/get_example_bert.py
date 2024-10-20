@@ -9,7 +9,7 @@ from sentence_transformers import SentenceTransformer,SimilarityFunction
 from converter.io import read_jsonl, write_jsonl
 import pandas as pd
 
-def get_sim_score(list_attribute_instance,list_attribute_pk,bert_model,sim_function):
+def get_sim_score(list_attribute_instance,list_attribute_bk,bert_model,sim_function):
     if sim_function == "cosine":
         model = SentenceTransformer(bert_model, similarity_fn_name=SimilarityFunction.COSINE)
     elif sim_function == "dot":
@@ -21,13 +21,13 @@ def get_sim_score(list_attribute_instance,list_attribute_pk,bert_model,sim_funct
     else:
         raise ValueError("Wrong 'sim_function' parameter. Only 'cosine', 'dot', euclidean', or 'manhattan' is allowed.")
     embeddings1 = model.encode(list_attribute_instance)
-    embeddings2 = model.encode(list_attribute_pk)
+    embeddings2 = model.encode(list_attribute_bk)
     # Compute cosine similarities
     return model.similarity(embeddings1, embeddings2).tolist()
 
-def mean_sim_score(list_text_instance,list_st_span_instance,list_text_pk,list_st_span_pk,bert_model,sim_function):
-    sim_score_1 = get_sim_score(list_text_instance,list_text_pk,bert_model,sim_function)
-    sim_score_2 = get_sim_score(list_st_span_instance,list_st_span_pk,bert_model,sim_function)
+def mean_sim_score(list_text_instance,list_st_span_instance,list_text_bk,list_st_span_bk,bert_model,sim_function):
+    sim_score_1 = get_sim_score(list_text_instance,list_text_bk,bert_model,sim_function)
+    sim_score_2 = get_sim_score(list_st_span_instance,list_st_span_bk,bert_model,sim_function)
     return [[(g + h) / 2 for g, h in zip(a, b)] for a,b in zip(sim_score_1,sim_score_2)]
 
 def get_ex_attribute(ex_jsonl_path):
@@ -55,7 +55,7 @@ def get_example_bert(input_file_path,output_file_path,negative_example_path,posi
     js_ssa = read_jsonl(input_file_path)
     list_ssa_text = [js.get('text') for js in js_ssa]
     list_ssa_st_span = [js.get('st_span') for js in js_ssa]
-    # Get pk attribute
+    # Get bk attribute
     neg_ex_attribute = get_ex_attribute(negative_example_path)
     pos_ex_attribute = get_ex_attribute(positive_example_path)
     # Get sim score
@@ -70,9 +70,9 @@ def get_example_bert(input_file_path,output_file_path,negative_example_path,posi
         pos_sim_score = mean_sim_score(list_ssa_text,list_ssa_st_span,pos_ex_attribute.list_ex_text,pos_ex_attribute.list_ex_st_span,bert_model,sim_function)
     else:
         raise ValueError("Wrong 'sim_attribute' parameter. Only 'text', 'st_span', or 'average' is allowed.")
-    # Add pk and example to the splitted_stc dataset
+    # Add bk and example to the spc dataset
     for i in range(len(js_ssa)):
-        # Get pk and example for instance i
+        # Get bk and example for instance i
         neg_ex = get_ex(neg_ex_attribute,neg_sim_score[i],top_n,drop_duplicate_text)
         pos_ex = get_ex(pos_ex_attribute,pos_sim_score[i],top_n,drop_duplicate_text)
         js_ssa[i][f"bert_{sim_attribute}_list_negative_example"] = neg_ex

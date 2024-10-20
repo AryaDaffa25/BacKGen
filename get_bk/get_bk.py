@@ -9,48 +9,48 @@ from get_bk.get_bk_utility import get_bk_candidate_per_polarity, get_bk_per_pola
 from converter.io import write_jsonl
 import argparse
 
-# Function to get pk from all polarity
-def get_pk(splitted_frame_klp_path,negative_pk_klp_path,neutral_pk_klp_path,positive_pk_klp_path,output_file_path,lib_folder_path,top_n=1,return_result="yes"):
-    # Get pk for each polarity
-    print("Processing to get pk candidate of negative polarity.")
-    negative_pk = get_bk_per_polarity(get_bk_candidate_per_polarity(splitted_frame_klp_path,negative_pk_klp_path,lib_folder_path,top_n),"negative",top_n)
-    print("Processing to get pk candidate of neutral polarity.")
-    neutral_pk = get_bk_per_polarity(get_bk_candidate_per_polarity(splitted_frame_klp_path,neutral_pk_klp_path,lib_folder_path,top_n),"neutral",top_n)
-    print("Processing to get pk candidate of positive polarity.")
-    positive_pk = get_bk_per_polarity(get_bk_candidate_per_polarity(splitted_frame_klp_path,positive_pk_klp_path,lib_folder_path,top_n),"positive",top_n)
-    print("Process for getting pk candidate of each polarity is finished. Now we are processing to get top_n pk.")
-    # Check if the length of list of pk is different
-    if len(negative_pk) != len(neutral_pk) or len(negative_pk) != len(positive_pk) or len(neutral_pk) != len(positive_pk):
-        raise ValueError("There is difference of length of list of pk!")
+# Function to get bk from all polarity
+def get_bk(splitted_frame_klp_path,negative_bk_klp_path,neutral_bk_klp_path,positive_bk_klp_path,output_file_path,lib_folder_path,top_n=1,return_result="yes"):
+    # Get bk for each polarity
+    print("Processing to get bk candidate of negative polarity.")
+    negative_bk = get_bk_per_polarity(get_bk_candidate_per_polarity(splitted_frame_klp_path,negative_bk_klp_path,lib_folder_path,top_n),"negative",top_n)
+    print("Processing to get bk candidate of neutral polarity.")
+    neutral_bk = get_bk_per_polarity(get_bk_candidate_per_polarity(splitted_frame_klp_path,neutral_bk_klp_path,lib_folder_path,top_n),"neutral",top_n)
+    print("Processing to get bk candidate of positive polarity.")
+    positive_bk = get_bk_per_polarity(get_bk_candidate_per_polarity(splitted_frame_klp_path,positive_bk_klp_path,lib_folder_path,top_n),"positive",top_n)
+    print("Process for getting bk candidate of each polarity is finished. Now we are processing to get top_n bk.")
+    # Check if the length of list of bk is different
+    if len(negative_bk) != len(neutral_bk) or len(negative_bk) != len(positive_bk) or len(neutral_bk) != len(positive_bk):
+        raise ValueError("There is difference of length of list of bk!")
     # Define result container
-    jsonl_pk = []
-    for idx in range(len(negative_pk)):
+    jsonl_bk = []
+    for idx in range(len(negative_bk)):
         # Get id
-        id_text = negative_pk[idx][0]
-        # Get similarity score of top_n pk for each polarity, just in case we needed it in the future ablation test
-        list_neg_pk_sim_score = negative_pk[idx][2]
-        list_neu_pk_sim_score = neutral_pk[idx][2]
-        list_pos_pk_sim_score = positive_pk[idx][2]
-        # Get top_n pk for each polarity
-        list_neg_pk = negative_pk[idx][3]
-        list_neu_pk = neutral_pk[idx][3]
-        list_pos_pk = positive_pk[idx][3]
-        jsonl_pk.append({"id":id_text,"list_neg_pk_sim_score":list_neg_pk_sim_score,"list_neg_pk":list_neg_pk,"list_neu_pk_sim_score":list_neu_pk_sim_score,"list_neu_pk":list_neu_pk,"list_pos_pk_sim_score":list_pos_pk_sim_score,"list_pos_pk":list_pos_pk})
-    write_jsonl(jsonl_pk,output_file_path)
+        id_text = negative_bk[idx][0]
+        # Get similarity score of top_n bk for each polarity, just in case we needed it in the future ablation test
+        list_neg_bk_sim_score = negative_bk[idx][2]
+        list_neu_bk_sim_score = neutral_bk[idx][2]
+        list_pos_bk_sim_score = positive_bk[idx][2]
+        # Get top_n bk for each polarity
+        list_neg_bk = negative_bk[idx][3]
+        list_neu_bk = neutral_bk[idx][3]
+        list_pos_bk = positive_bk[idx][3]
+        jsonl_bk.append({"id":id_text,"list_neg_bk_sim_score":list_neg_bk_sim_score,"list_neg_bk":list_neg_bk,"list_neu_bk_sim_score":list_neu_bk_sim_score,"list_neu_bk":list_neu_bk,"list_pos_bk_sim_score":list_pos_bk_sim_score,"list_pos_bk":list_pos_bk})
+    write_jsonl(jsonl_bk,output_file_path)
     if return_result == "yes":
-        return jsonl_pk
+        return jsonl_bk
 
 def main(args):
     # Get all arguments
     splitted_frame_klp_path = args.splitted_frame_klp_path
-    negative_pk_klp_path = args.negative_pk_klp_path
-    neutral_pk_klp_path = args.neutral_pk_klp_path
-    positive_pk_klp_path = args.positive_pk_klp_path
+    negative_bk_klp_path = args.negative_bk_klp_path
+    neutral_bk_klp_path = args.neutral_bk_klp_path
+    positive_bk_klp_path = args.positive_bk_klp_path
     output_file_path = args.output_file_path
     lib_folder_path = args.lib_folder_path
     top_n = args.top_n
     # Running the main process
-    get_pk(splitted_frame_klp_path,negative_pk_klp_path,neutral_pk_klp_path,positive_pk_klp_path,output_file_path,lib_folder_path,top_n,return_result="no")
+    get_bk(splitted_frame_klp_path,negative_bk_klp_path,neutral_bk_klp_path,positive_bk_klp_path,output_file_path,lib_folder_path,top_n,return_result="no")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
@@ -59,19 +59,19 @@ if __name__ == "__main__":
         type=str
     )
     parser.add_argument(
-        "--negative_pk_klp_path", help="Your medoid negative polarity klp path.",
+        "--negative_bk_klp_path", help="Your medoid negative polarity klp path.",
         type=str
     )
     parser.add_argument(
-        "--neutral_pk_klp_path", help="Your medoid neutral polarity klp path.",
+        "--neutral_bk_klp_path", help="Your medoid neutral polarity klp path.",
         type=str
     )
     parser.add_argument(
-        "--positive_pk_klp_path", help="Your medoid positive polarity klp path.",
+        "--positive_bk_klp_path", help="Your medoid positive polarity klp path.",
         type=str
     )
     parser.add_argument(
-        "--output_file_path", help="Your output file path to store the choosen pk.",
+        "--output_file_path", help="Your output file path to store the choosen bk.",
         type=str
     )
     parser.add_argument(
@@ -79,7 +79,7 @@ if __name__ == "__main__":
         type=str
     )
     parser.add_argument(
-        "--top_n", help="The number of top pk that you want to retrieve.",
+        "--top_n", help="The number of top bk that you want to retrieve.",
         type=int
     )
     args = parser.parse_args()

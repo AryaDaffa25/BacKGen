@@ -6,7 +6,7 @@ sys.path.append(current_path)
 
 # Import libraries
 from llm_inference.get_prompt_utility import *
-from llm_inference.get_prompt_splitted_stc import *
+from llm_inference.get_prompt_spc import *
 from llm_inference.get_prompt_bk_ablation import get_prompt_bk_ablation
 
 def get_prompt_bk_with_example(frame_list,text_list,frame_definition_list,polarity,prompt_variant=1):
@@ -36,7 +36,7 @@ def get_prompt(list_inference_input,prompt_task_type,prompt_variant=1):
         return get_prompt_bk_ablation(list_inference_input[0],list_inference_input[1],list_inference_input[2],list_inference_input[3],prompt_variant)
     elif prompt_task_type == "spc_zero_with_explanation":
         return get_prompt_spc_zero_with_explanation(list_inference_input[0],list_inference_input[1],prompt_variant)
-    elif prompt_task_type == "spc_pk_with_explanation":
+    elif prompt_task_type == "spc_bk_with_explanation":
         return get_prompt_spc_bk_with_explanation(list_inference_input[0],list_inference_input[1],list_inference_input[2],prompt_variant)
     elif prompt_task_type == "spc_few_with_explanation":
         return get_prompt_spc_few_with_explanation(list_inference_input[0],list_inference_input[1],list_inference_input[2],list_inference_input[3],prompt_variant)
