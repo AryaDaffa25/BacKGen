@@ -1,2 +1,8 @@
 # BaKGen
-A repository for Background Knowledge Generator. 
+A framework to generate background knowledge (BK) for knowledge prompting for a particular NLP downstream task. In this repository, we demonstrate how to generate BK using BacKGen and implement it for sentiment phrase classification (SPC) task.
+## About This Repository
+The problem of sample selection in few-shot prompting introduces knowledge and chain-of-taught prompting as the more robust alternative. Here, we propose BacKGen, a framework to generate background knowledge (BK) based on frame semantic theory that can be used for knowledge prompting. We tested the generated knowledge for knowledge prompting in solving SPC. The experiment results showed that the BK added in the prompt increased the performance with a significant impact on error reduction rate.
+## Main Use
+Using BacKGen for knowledge prompting consists of two main processes: <br />
+1. `BK Generation`: This process is done to generate BK. Suppose that we have a collection of frames extracted from texts using a particular parser, we use BacKGen to cluster filter and cluster them. Then, we generate BK from the clustered frame using a particular LLM with a particular prompt template.
+2. `BK Selection and Injection`: This process is done for bk injection shot (bk-shot). Suppose that we already obtain the generated BK, we select the top-n BK for each label based on a particual similarity function (frame or text similarity), then inject it to the prompt.
