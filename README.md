@@ -6,3 +6,8 @@ The problem of sample selection in few-shot prompting introduces knowledge and c
 Using BacKGen for knowledge prompting consists of two main processes: <br />
 1. `BK Generation`: This process is done to generate BK. Suppose that we have a collection of frames extracted from texts using a particular parser, we use BacKGen to cluster filter and cluster them. Then, we generate BK from the clustered frame using a particular LLM with a particular prompt template.
 2. `BK Selection and Injection`: This process is done for bk injection shot (bk-shot). Suppose that we already obtain the generated BK, we select the top-n BK for each label based on a particual similarity function (frame or text similarity), then inject it to the prompt.
+## About Dataset
+In folder `data`, we provided three sub-folders: <br />
+1. `5_fold_bk`: This folder contains the BK database that can be directly used for sentiment analysis on environmental sustainability (ES) issues using bk-shot.
+2. `5_fold_frame_spc`: This folder contains our 5_fold data for reproducibility and development needs in sentiment phrase classification on ES issues.
+3. `mwe`: This folder contains the dataset for the minimum working example (MWE) of our BK generation, selection, and injection process. 
