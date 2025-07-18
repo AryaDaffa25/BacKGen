@@ -29,3 +29,17 @@ BacKGen provides two approaches for BK selection i.e. based on text similarity a
 3. `Frame Similarity Scoring`: We calculate the frame similarity of the filtered frame with each medoid frame using tree-kernel-based similarity provided by [KELP](https://jmlr.org/papers/v18/16-087.html). Suppose we want to calculate the frame similarity between the `filtered_frame` in the file `$ data/mwe/spc_2_filtered_frame/mwe-val-frame_filtered.jsonl` with the medoid frame of the `positive_cluster` in the file `$ data/mwe/backgen_4_generated_bk/mwe-bk_positive.klp` and store the `similarity_score` in the file `$ data/mwe/spc_3_sim_score/mwe-sim_score_positive.txt`, we move our working directory to `$ cd clusterer` folder and run the script `$ java -cp .:./lib/kelp-additional-algorithms-2.2.2.jar:lib/kelp-core-2.2.2.jar:lib/kelp-full2.0.2.jar KernelSimilarity filtered_frame positive_cluster similarity_score frame_syntaxtree`. This process is repeated for the `negative_cluster` so that we obtain two similarity score files as seen in the folder `$ data/mwe/spc_3_sim_score`.
 4. `BK Selection`: From the obtained similarity score files, we can retrieve top-n BK for each BK's polarity database and add it to the SPC file instance `$ data/mwe/0_spc_data/mwe-val-spc.jsonl` by using the function `get_bk_spc(args)` written in the file `$ get_bk/get_bk_spc.py`. The result of this process is the original SPC file with the extra BK attribute as can be seen in the file `$ data/mwe/spc_4_selected_bk/mwe-val-bk_instance.jsonl`.
 5. `BK Injection`: Using the file script `$ llm_inference/llm_inference_bulk.py` we inject the selected BK and perform bk-shot prompting using a particular LLM.  For custom prompts, we can define our prompt in the file `$ llm_inference/get_prompt_spc.py`. The output example of this process can be seen in the file `$ data/mwe/spc_5_bk_shot_result/mwe-val-bk_shot_result.jsonl`. Finally, we can post-process (to get the final answer) and evaluate the output using a particular post-processing and evaluation metric as we need.
+
+# Citation
+To cite the paper, please use the following:
+```
+@inproceedings{ibrohim-etal-2025-backgen,
+    title = "Modeling Background Knowledge with Frame Semantics for Fine-grained Sentiment Classification",
+    author = "Muhammad Okky Ibrohim and Valerio Basile and Danilo Croce and Cristina Bosco and Roberto Basili",
+    editor = "Filip Ilievski and Giulia Rambelli and Marianna Bolognesi and Ute Schmid and Pia Sommerauer",
+    booktitle = "Proceedings of The Second Workshop on Analogical Abstraction in Cognition, Perception, and Language (Analogy-Angle II)",
+    month = july,
+    year = "2025",
+    address = "Vienna, Austria",
+}
+```
