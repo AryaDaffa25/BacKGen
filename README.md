@@ -1,21 +1,51 @@
 # BaKGen
-A framework to generate background knowledge (BK) for knowledge prompting for a particular NLP downstream task. In this repository, we demonstrate how to generate BK using BacKGen and implement it for sentiment phrase classification (SPC) task.
-## Brief Introduction
-The problem of sample selection in few-shot prompting introduces knowledge and chain-of-taught prompting as the more robust alternative. Here, we propose BacKGen, a framework to generate background knowledge (BK) based on frame semantic theory that can be used for knowledge prompting. We tested the generated knowledge for knowledge prompting in solving SPC. The experiment results showed that the BK added in the prompt increased the performance with a significant impact on error reduction rate.
-## Main Use
+This repository contains the code and dataset for the paper **Modeling Background Knowledge with Frame Semantics for Fine-grained
+Sentiment Classification** published in **Analogy-Angle II** workshop by *Muhammad Okky Ibrohim* (University of Turin), *Valerio Basile* (University of Turin), *Danilo Croce* (University of Rome "Tor Vergata"), *Cristina Bosco* (University of Turin), and *Roberto Basili* (University of Rome "Tor Vergata"). The paper will be available soon.
+
+# What is BacKGen?
+## Introduction
+The problem of sample selection in few-shot prompting introduces knowledge and chain-of-taught prompting as the more robust alternative. Here, we propose BacKGen, a framework to generate background knowledge (BK) based on frame semantic theory that can be used for knowledge prompting. We tested the generated knowledge for knowledge prompting in solving Sentiment Phrase Classification (SPC), a task where the goal is to determine the sentiment polarity of a target phrase in a given text. The example below illustrates why knowledge prompting using BacKGen is particularly important for this task (these are abbreviated versions for illustration; full prompt templates are reported in the paper).
+> Example of `zero-shot` SPC prompt:
+>> Task: Determine the polarity (either 'positive' or 'negative') of the target phrase.
+>> 
+>> Input:
+>> - Text: *"The government phases out fossil fuels."*
+>> - Target Phrase: *"phases out fossil fuels"*
+>>
+>> Model Output: negative
+
+> Example of `bk-shot` SPC prompt with injected background knowledge:
+>> Task: Determine the polarity (either 'positive' or 'negative') of the target phrase, using background knowledge if helpful.
+>>
+>> Input:
+>> - Text: *"The government phases out fossil fuels."*
+>> - Target Phrase: *"phases out fossil fuels"*
+>>
+>> Background Knowledge:
+>> - The fact that a public entity wants to remove something related to green initiatives is perceived negatively.
+>> - Public entities’ intention to reduce non-renewable energy sources is seen as a positive step.
+>>
+>> Model Output: positive
+
+From the example above, we can see that SPC becomes especially challenging when the sentiment of a phrase is context-dependent or ambiguous. Here, the target phrase *"phases out fossil fuels"* might be misclassified as negative in a zero-shot setting, as *"phases out"* often conveys abandonment. However, in the context of environmental policy, the action of phasing out fossil fuels is typically seen in a positive light. In this case, injecting BK into the prompt can guide the model toward the correct interpretation. Statements such as *"public entities’ intention to reduce non-renewable energy sources is seen as a positive step"* help contextualize the sentiment, enabling the model to move beyond surface-level heuristics. This example demonstrates how BK can resolve subtle ambiguities in sentiment interpretation and reinforces our motivation for replacing concrete examples with structured, generalizable knowledge.
+
+## BacKGen Flow
 Using BacKGen for knowledge prompting consists of two main processes: <br />
 1. `BK Generation`: This process is done to generate BK. Suppose that we have a collection of frames extracted from texts using a particular parser, we use BacKGen to cluster filter and cluster them. Then, we generate BK from the clustered frame using a particular LLM with a particular prompt template.
 2. `BK Selection and Injection`: This process is done for bk injection shot (bk-shot). Suppose that we already obtain the generated BK, we select the top-n BK for each label based on a particual similarity function (frame or text similarity), then inject it to the prompt.
+
 ## About Dataset
 In folder `data`, we provided three sub-folders: <br />
 1. `5_fold_bk`: This folder contains the BK database that can be directly used for sentiment analysis on environmental sustainability (ES) issues using bk-shot.
 2. `5_fold_frame_spc`: This folder contains our 5_fold data for reproducibility and development needs in sentiment phrase classification (SPC) on ES issues.
 3. `mwe`: This folder contains the dataset for the minimum working example (MWE) of our BK generation, selection, and injection process. 
-## Requirements
-BacKGen is implemented in `Python 3` (tested on `Python 3.8.12` and `Python 3.10.2`) and requires a number of packages. To install the packages, simply run `$ pip install -r requirements.txt` in your virtual environment. For the `torch` version, you may need a different one following your `cuda` version. For frame clustering, you need `java` installed in your environment, where in our case we use `java 22`.
 
 # Minimum Working Example (MWE)
 In this MWE, we demonstrate how to use BacKGen to generate BK and use it for SPC task. Given a set of texts, our goal in this demonstration is to generate two BK databases i.e. BK for positive and negative polarity.
+
+## Requirements
+BacKGen is implemented in `Python 3` (tested on `Python 3.8.12` and `Python 3.10.2`) and requires a number of packages. To install the packages, simply run `$ pip install -r requirements.txt` in your virtual environment. For the `torch` version, you may need a different one following your `cuda` version. For frame clustering, you need `java` installed in your environment, where in our case we use `java 22`.
+
 ## BK Generation process
 In general, generating BK using BacKGen consists of four major steps:
 1. `Frame Extraction`: Given a set of texts, the first step is to extract the frame semantics of the frame. In this MWE, we use [LOME frame parser](https://aclanthology.org/2021.eacl-demos.19/) to extract the frame from text in `$ data/mwe/0_spc_data/mwe-train.jsonl` and store the result in `$ data/mwe/backgen_1_extracted_frame/mwe-train-frame.jsonl`.
