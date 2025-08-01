@@ -1,10 +1,10 @@
 # BaKGen
 This repository contains the code and dataset for the paper **Modeling Background Knowledge with Frame Semantics for Fine-grained
-Sentiment Classification** published in **Analogy-Angle II** workshop by *Muhammad Okky Ibrohim* (University of Turin), *Valerio Basile* (University of Turin), *Danilo Croce* (University of Rome "Tor Vergata"), *Cristina Bosco* (University of Turin), and *Roberto Basili* (University of Rome "Tor Vergata"). The paper will be available soon.
+Sentiment Classification** published in **Analogy-Angle II** workshop by *Muhammad Okky Ibrohim* (University of Turin), *Valerio Basile* (University of Turin), *Danilo Croce* (University of Rome "Tor Vergata"), *Cristina Bosco* (University of Turin), and *Roberto Basili* (University of Rome "Tor Vergata"). The paper can be read [here](https://aclanthology.org/2025.analogyangle-1.3/).
 
 # What is BacKGen?
 ## Introduction
-The problem of sample selection in few-shot prompting introduces knowledge and chain-of-taught prompting as the more robust alternative. Here, we propose BacKGen, a framework to generate background knowledge (BK) based on frame semantic theory that can be used for knowledge prompting. We tested the generated knowledge for knowledge prompting in solving Sentiment Phrase Classification (SPC), a task where the goal is to determine the sentiment polarity of a target phrase in a given text. The example below illustrates why knowledge prompting using BacKGen is particularly important for this task (these are abbreviated versions for illustration; full prompts are explained in the paper).
+The problem of sample selection in few-shot prompting introduces knowledge and chain-of-taught prompting as the more robust alternative. Here, we propose BacKGen, a framework to generate background knowledge (BK) based on frame semantic theory that can be used for knowledge prompting. We tested the generated knowledge for knowledge prompting in solving Sentiment Phrase Classification (SPC), a task where the goal is to determine the sentiment polarity of a target phrase in a given text. The example below illustrates why knowledge prompting using BacKGen is particularly important for this task (these are abbreviated versions for illustration; full prompts are explained in [the paper](https://aclanthology.org/2025.analogyangle-1.3/)).
 > Example of `zero-shot` SPC prompt:
 >> Task: Determine the polarity (either 'positive' or 'negative') of the target phrase.
 >> 
@@ -67,13 +67,24 @@ BacKGen provides two approaches for BK selection i.e. based on text similarity a
 # Citation
 To cite the paper, please use the following:
 ```
-@inproceedings{ibrohim-etal-2025-backgen,
+@inproceedings{ibrohim-etal-2025-modeling,
     title = "Modeling Background Knowledge with Frame Semantics for Fine-grained Sentiment Classification",
-    author = "Muhammad Okky Ibrohim and Valerio Basile and Danilo Croce and Cristina Bosco and Roberto Basili",
-    editor = "Filip Ilievski and Giulia Rambelli and Marianna Bolognesi and Ute Schmid and Pia Sommerauer",
-    booktitle = "Proceedings of The Second Workshop on Analogical Abstraction in Cognition, Perception, and Language (Analogy-Angle II)",
-    month = july,
+    author = "Ibrohim, Muhammad Okky  and
+      Basile, Valerio  and
+      Croce, Danilo  and
+      Bosco, Cristina  and
+      Basili, Roberto",
+    editor = "Rambelli, Giulia  and
+      Ilievski, Filip  and
+      Bolognesi, Marianna  and
+      Sommerauer, Pia",
+    booktitle = "Proceedings of the 2nd Workshop on Analogical Abstraction in Cognition, Perception, and Language (Analogy-Angle II)",
+    month = aug,
     year = "2025",
     address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.analogyangle-1.3/",
+    pages = "22--36",
+    ISBN = "979-8-89176-274-9",
 }
 ```
