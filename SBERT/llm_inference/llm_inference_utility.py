@@ -21,12 +21,12 @@ def load_model_tokenizer(model_name,hf_token=""):
     return model, tokenizer
 
 def llm_inference_greedy_search(prompt,tokenizer,model,gpu_device="",max_new_tokens=250,return_mode="with_subtoken_score"):
-    if gpu_device == "":
-        device = "cpu"
-    else:   
-        device = f"cuda:{gpu_device}"
+    # if gpu_device == "":
+    #     device = "cpu"
+    # else:   
+    #     device = f"cuda:{gpu_device}"
     #model = model.to(device)
-    inputs = tokenizer([prompt], return_tensors="pt").to(model.device)
+    inputs = tokenizer([prompt], return_tensors="pt").to("cuda")
     outputs = model.generate(**inputs, max_new_tokens=max_new_tokens, return_dict_in_generate=True, output_scores=True)
     transition_scores = model.compute_transition_scores(
         outputs.sequences, outputs.scores, normalize_logits=True
