@@ -16,17 +16,17 @@ def load_model_tokenizer(model_name,hf_token=""):
     else:
         flag_auth_token = False
     tokenizer = AutoTokenizer.from_pretrained(model_name,use_auth_token=flag_auth_token)
-    model = AutoModelForCausalLM.from_pretrained(model_name,use_auth_token=flag_auth_token)
+    model = AutoModelForCausalLM.from_pretrained(model_name,use_auth_token=flag_auth_token,torch_dtype="auto",device_map="auto")
     tokenizer.pad_token_id = tokenizer.eos_token_id
     return model, tokenizer
 
 def llm_inference_greedy_search(prompt,tokenizer,model,gpu_device="",max_new_tokens=250,return_mode="with_subtoken_score"):
     if gpu_device == "":
         device = "cpu"
-    else:
+    else:   
         device = f"cuda:{gpu_device}"
-    model = model.to(device)
-    inputs = tokenizer([prompt], return_tensors="pt").to(device)
+    #model = model.to(device)
+    inputs = tokenizer([prompt], return_tensors="pt").to(model.device)
     outputs = model.generate(**inputs, max_new_tokens=max_new_tokens, return_dict_in_generate=True, output_scores=True)
     transition_scores = model.compute_transition_scores(
         outputs.sequences, outputs.scores, normalize_logits=True
@@ -40,10 +40,11 @@ def llm_inference_greedy_search(prompt,tokenizer,model,gpu_device="",max_new_tok
         list_subtoken,list_subtoken_score = [],[]
         for tok, score in zip(generated_tokens[0], transition_scores[0]):
             list_subtoken.append(tokenizer.decode(tok))
-            if device == "cpu":
-                list_subtoken_score.append(float(np.exp(score.numpy())))
-            else:
-                list_subtoken_score.append(float(np.exp(score.cpu().numpy())))
+            # if device == "cpu":
+            #     list_subtoken_score.append(float(np.exp(score.numpy())))
+            # else:
+            #     list_subtoken_score.append(float(np.exp(score.cpu().numpy())))
+            list_subtoken_score.append(float(np.exp(score.detach().cpu().numpy())))
         return original_answer, list_subtoken, list_subtoken_score
     else:
         raise ValueError("Wrong `return_mode`. Please type `with_subtoken_score` if you want to get the sub token score, or `without_subtoken_score` if not.")
