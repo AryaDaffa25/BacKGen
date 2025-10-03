@@ -44,7 +44,7 @@ def get_prompt_bk_direct(text_list,polarity,prompt_variant=1):
     example_frame_definition,example_input_text,example_answer = get_bk_example(polarity)
     # Frame + Text + Definition
     if prompt_variant == 1:
-        prompt = f"Write one sentence expressing general background knowledge that reflects stereotypical information, based on the input sentences provided. These sentences are grouped by shared situations (or frames) modeled according to Frame Semantics Theory. Ensure that the generated text conveys a {polarity} sentiment and the reason of the sentiment should be made explicit.\n\nExample:\nHere are the input texts:\n{example_input_text_only}Answer: {example_answer}\n\nYour Turn:\nHere are the input texts:\n{prompt_input_text_only}Answer: "
+        prompt = f"Write one sentence expressing general background knowledge that reflects stereotypical information, based on the input sentences provided. These sentences are grouped by shared situations modeled according to embedding similarity. Ensure that the generated text conveys a {polarity} sentiment and the reason of the sentiment should be made explicit.\n\nExample:\nHere are the input texts:\n{example_input_text_only}Answer: {example_answer}\n\nYour Turn:\nHere are the input texts:\n{prompt_input_text_only}Answer: "
         return prompt
     else:
         raise ValueError(f"You choose variant {prompt_variant} but we do not have it in get_prompt_bk_ablation function. Please define your variant in that function.")

@@ -1,0 +1,185 @@
+{
+  "total_texts": 106,
+  "num_clusters": 18,
+  "polarity": "positive",
+  "clusters": {
+    "0": {
+      "size": 5,
+      "percentage": 4.716981132075472,
+      "medoid_preview": "bbc we agree with masood the mini budget should have included windfall taxes on the energy companies...",
+      "sample_texts": [
+        "but energy generation isn t a monopoly competition is desirable is the plan to m...",
+        "at least we can try our best this time very funny how times have changed mdgs wa...",
+        "waiting for the one from environment and climate change canada with tips on mini..."
+      ]
+    },
+    "1": {
+      "size": 7,
+      "percentage": 6.60377358490566,
+      "medoid_preview": "the uk is one of the most nature depleted countries on earth but organic farming helps support biodi...",
+      "sample_texts": [
+        "backyard green house take good care of your plants and flowers with plastic gree...",
+        "greer isn t loch lomond a national park owned by a scotgov body we have a scot g...",
+        "brexit freedoms make english agriculture more productive resilient and sustainab..."
+      ]
+    },
+    "2": {
+      "size": 12,
+      "percentage": 11.320754716981133,
+      "medoid_preview": "at mindspace business parks we believe in efficient food waste management on this international day ...",
+      "sample_texts": [
+        "if we don t become more conscious of what we waste mother earth will do what s n...",
+        "stg global delivers the world s first dual wastecollection truck...",
+        "community members can take their recycling to the north 48th street transfer sta..."
+      ]
+    },
+    "3": {
+      "size": 3,
+      "percentage": 2.8301886792452833,
+      "medoid_preview": "dear sir there is a huge scarcity of water at the place where we stand by for the last one year need...",
+      "sample_texts": [
+        "dear sir there is a huge scarcity of water at the place where we stand by for th...",
+        "we must keep natural water reservoirs neat and clean it can stock rainwater savi...",
+        "that water is filled with waste sewage and disease i am not religious and made i..."
+      ]
+    },
+    "4": {
+      "size": 7,
+      "percentage": 6.60377358490566,
+      "medoid_preview": "great to see this happen we can prevent this if we act faster on climate...",
+      "sample_texts": [
+        "my guess more local climate catastrophes will push climate change up in the vote...",
+        "india s great contribution towards reduction of greenhouse effect amp in turn cl...",
+        "are you seriously going to go there when talking about climate change i m talkin..."
+      ]
+    },
+    "5": {
+      "size": 12,
+      "percentage": 11.320754716981133,
+      "medoid_preview": "great to see the enthusiasm our staff have for environmental sustainability with members of environm...",
+      "sample_texts": [
+        "has participated in and was recognized as a premium exhibitor at this year s edi...",
+        "great to see the enthusiasm our staff have for environmental sustainability with...",
+        "thanks to everyone who came to our agm and development event yesterday great dis..."
+      ]
+    },
+    "6": {
+      "size": 7,
+      "percentage": 6.60377358490566,
+      "medoid_preview": "4 it is still a fossil fuel we don t need it specially as renewable energy is cheaper and far safer...",
+      "sample_texts": [
+        "public and clinical healthcare professionals treaty calls upon countries to phas...",
+        "naturalgas is a critical component of american energy exports and the us can lea...",
+        "ghana will transition from fossil fuel to renewable energy by 2070 ghnewssummary..."
+      ]
+    },
+    "7": {
+      "size": 7,
+      "percentage": 6.60377358490566,
+      "medoid_preview": "communityitw i believe in social economic and environmental sustainability but by using ready to use...",
+      "sample_texts": [
+        "kansai electric will be working with medco power to assist indonesian decarbonis...",
+        "central to this fashion industry charter for climate action signed by epic group...",
+        "communityitw i believe in social economic and environmental sustainability but b..."
+      ]
+    },
+    "9": {
+      "size": 5,
+      "percentage": 4.716981132075472,
+      "medoid_preview": "methane is a short lived climate forcer which means it is a potent greenhouse gas about 20 times mor...",
+      "sample_texts": [
+        "metana or what we know as methane metana is the simplest molecule and very envir...",
+        "this would actually be ideal as natgas methane aka cow farts is 200x as nasty as...",
+        "01 net zero is the complete negating of greenhouse gases produced by human activ..."
+      ]
+    },
+    "10": {
+      "size": 3,
+      "percentage": 2.8301886792452833,
+      "medoid_preview": "urban planning encouraging more time with fewer faces i believe could be a great way to create a hea...",
+      "sample_texts": [
+        "you are one of the people that would have us all regress to the ways of the 18th...",
+        "urban planning encouraging more time with fewer faces i believe could be a great...",
+        "he makes some valid points however the educational system does have an impact on..."
+      ]
+    },
+    "11": {
+      "size": 3,
+      "percentage": 2.8301886792452833,
+      "medoid_preview": "and this allows the audience to come up with their own conclusions on their attitudes towards plasti...",
+      "sample_texts": [
+        "it s not unreasonable to draw other conclusions since the inception of the texas...",
+        "plasticpollution is the crisis of our time but now scientists at have developed ...",
+        "and this allows the audience to come up with their own conclusions on their atti..."
+      ]
+    },
+    "12": {
+      "size": 4,
+      "percentage": 3.7735849056603774,
+      "medoid_preview": "it would be more efficient to fund active travel schemes rather than giant road projects this would ...",
+      "sample_texts": [
+        "it would be more efficient to fund active travel schemes rather than giant road ...",
+        "incredible a report on sustainable transport that doesn t feature walking or cyc...",
+        "good one hope come up with carfreeday so does dependency on vehicles to move aro..."
+      ]
+    },
+    "13": {
+      "size": 7,
+      "percentage": 6.60377358490566,
+      "medoid_preview": "yes organic farming is the best for health morality and saving the planet...",
+      "sample_texts": [
+        "sorghum is a naturally nongmo gluten free grain that contains an abundance of an...",
+        "yes organic farming is the best for health morality and saving the planet...",
+        "and you are a doctor plant based is the way to go for your health the animals an..."
+      ]
+    },
+    "14": {
+      "size": 6,
+      "percentage": 5.660377358490567,
+      "medoid_preview": "enhancing household level food security nutrition and income generation through climate smart farmin...",
+      "sample_texts": [
+        "sustainable farming requires patience and constant knowlwdge update sdgs sdg sus...",
+        "dennis hutson aims to champion black led sustainable agriculture first he has to...",
+        "food safety and your well being are super important to us let s talk here..."
+      ]
+    },
+    "15": {
+      "size": 6,
+      "percentage": 5.660377358490567,
+      "medoid_preview": "gmos awareness workshop for policy makers the national biotechnology authority is leading the discus...",
+      "sample_texts": [
+        "you do realize bill gates is heavily invested in animal agriculture right he has...",
+        "we should pass a law where if an individual wants to distribute their gmos in th...",
+        "gmo s good organic good monsanto bad healthcare bad supplements petroleum vitami..."
+      ]
+    },
+    "16": {
+      "size": 2,
+      "percentage": 1.8867924528301887,
+      "medoid_preview": "today is worldmaritimeday the seas play a central role not only for trade but also for our ecosystem...",
+      "sample_texts": [
+        "today is worldmaritimeday the seas play a central role not only for trade but al...",
+        "whales are secret weapon to fight against climatechange more whales means more p..."
+      ]
+    },
+    "17": {
+      "size": 2,
+      "percentage": 1.8867924528301887,
+      "medoid_preview": "traveling in 20501 tejas rajadhani express pnr no 6108938576 coach no a1 seat no 4 amp 6 after a lon...",
+      "sample_texts": [
+        "traveling in 20501 tejas rajadhani express pnr no 6108938576 coach no a1 seat no...",
+        "bike no up14 c x 9680 creating extreme air pollution place middle of elevated ro..."
+      ]
+    },
+    "19": {
+      "size": 5,
+      "percentage": 4.716981132075472,
+      "medoid_preview": "across all urban spaces there needs to be a conscious thought regarding the inclusion of trees and s...",
+      "sample_texts": [
+        "a basic fact we have to acknowledge is that forests and trees play a crucial rol...",
+        "in 2012 i tried stop touring with a band i miss it every day and start work in u...",
+        "across all urban spaces there needs to be a conscious thought regarding the incl..."
+      ]
+    }
+  }
+}

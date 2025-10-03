@@ -1,0 +1,704 @@
+{
+  "total_texts": 366,
+  "num_clusters": 73,
+  "polarity": "positive",
+  "clusters": {
+    "0": {
+      "size": 2,
+      "percentage": 0.546448087431694,
+      "medoid_preview": "there are many political parties in the us but we evolved into a system of two major parties no one ...",
+      "sample_texts": [
+        "there are many political parties in the us but we evolved into a system of two m...",
+        "your state also needs to act on climate change pronto or large parts of it are g..."
+      ]
+    },
+    "1": {
+      "size": 5,
+      "percentage": 1.366120218579235,
+      "medoid_preview": "a california based food tech company is creating cell based meat to decrease the beef industry s car...",
+      "sample_texts": [
+        "tcb s goal is to transform the cellular agriculture industry and enhance access ...",
+        "cultivated meat is the same meat we ve always known and loved crafted with care ...",
+        "some great ideas on sustainable and local agriculture here i m loving the recent..."
+      ]
+    },
+    "2": {
+      "size": 9,
+      "percentage": 2.459016393442623,
+      "medoid_preview": "eighteen green spaces in leicester have been taken off a list of potential building sites over the n...",
+      "sample_texts": [
+        "a green building tour of hotelmarcel newhaven ct september 29 swinter greenbuild...",
+        "they should invent fenchasacle park which has the green monster and the az cf wa...",
+        "oakland has set up some mini home communities for the homeless on previously unu..."
+      ]
+    },
+    "3": {
+      "size": 8,
+      "percentage": 2.185792349726776,
+      "medoid_preview": "recycling sustainable fuels tweaking global footprint the steps f1 is taking to achieve net carbon z...",
+      "sample_texts": [
+        "as part of our planetmobilization initiative we are committed to reducing our en...",
+        "australia needs an ambitious 75 emissions reduction target by 2035 a clear price...",
+        "the us hepling germany achieve net zero in fossil fuels nordstream2..."
+      ]
+    },
+    "4": {
+      "size": 14,
+      "percentage": 3.825136612021858,
+      "medoid_preview": "a gmo purple tomato is coming to grocery aisles will the us bite most genetically engineered foods w...",
+      "sample_texts": [
+        "scientist stopped by the studio to test out the recently deregulated purple toma...",
+        "adv hek 293 embryos aborted since 1973 cells gmo to clone stored in atcc used fo...",
+        "a gmo purple tomato is coming to grocery aisles will the us bite most geneticall..."
+      ]
+    },
+    "5": {
+      "size": 6,
+      "percentage": 1.639344262295082,
+      "medoid_preview": "yeah we have to make the decision to keep relying on fossil energy which will eventually destroy thi...",
+      "sample_texts": [
+        "why do we need fusionenergy fusion could be the key to limitless sustainable ene...",
+        "randy pollution from renewables is solvable but you can t live on a planet made ...",
+        "it is exactly what the wef leaders like biden merkel trudeau etc have been stati..."
+      ]
+    },
+    "6": {
+      "size": 11,
+      "percentage": 3.0054644808743167,
+      "medoid_preview": "sustainable tourism adds purpose to our journeys and meaning to our memories here are 20 ways to get...",
+      "sample_texts": [
+        "cultural tourism is green tourism our workshop at the the 20 th edition of eureg...",
+        "more sustainable and health tourism in all countries healthcare travel at...",
+        "florida already a national leader in education tourism job growth time to step u..."
+      ]
+    },
+    "7": {
+      "size": 5,
+      "percentage": 1.366120218579235,
+      "medoid_preview": "rural opportunities the inflation reduction act supports climate smart agriculture practices which w...",
+      "sample_texts": [
+        "rural opportunities the inflation reduction act supports climate smart agricultu...",
+        "federal loan programs helped companies like tesla and ford rapidly expand ev and...",
+        "in this week s spotlight on soybeans market development director matt amick says..."
+      ]
+    },
+    "8": {
+      "size": 7,
+      "percentage": 1.912568306010929,
+      "medoid_preview": "said europe has great potential for producing biomethane a green alternative for natural gas in the ...",
+      "sample_texts": [
+        "in coming years you will see this happen more and more as people realise just ho...",
+        "said europe has great potential for producing biomethane a green alternative for...",
+        "in the news nova scotia has announced plans to scale up its offshore wind power ..."
+      ]
+    },
+    "9": {
+      "size": 15,
+      "percentage": 4.098360655737705,
+      "medoid_preview": "sustainable public transport is central to cutting climate emissions this can mean replacing car lan...",
+      "sample_texts": [
+        "it seems that the better we make our cities the more expensive they become to li...",
+        "sustainable public transport is central to cutting climate emissions this can me...",
+        "crly perhaps you can consider these ideas the way ahead for sustainable developm..."
+      ]
+    },
+    "10": {
+      "size": 4,
+      "percentage": 1.092896174863388,
+      "medoid_preview": "ar fryn oil i to would like less dependency on oil and gas you only look at the negatives but you th...",
+      "sample_texts": [
+        "ar fryn oil i to would like less dependency on oil and gas you only look at the ...",
+        "sandra those leases were blocked because of legal disputes weren t even set up f...",
+        "if you ve noticed that gas is a little cheaper you re welcome sprained my ankle ..."
+      ]
+    },
+    "11": {
+      "size": 1,
+      "percentage": 0.273224043715847,
+      "medoid_preview": "non toxic product is an essential step to living a healthier life shop for quality non toxic body br...",
+      "sample_texts": [
+        "non toxic product is an essential step to living a healthier life shop for quali..."
+      ]
+    },
+    "12": {
+      "size": 5,
+      "percentage": 1.366120218579235,
+      "medoid_preview": "the initiative would provide mmlps a platform for seamless modal shift of freights team morth has be...",
+      "sample_texts": [
+        "the approach to project delivery using short term low cost and scalable concepts...",
+        "the rural development ministry has allocated over rm1 2 billion for the rural ro...",
+        "the initiative would provide mmlps a platform for seamless modal shift of freigh..."
+      ]
+    },
+    "13": {
+      "size": 5,
+      "percentage": 1.366120218579235,
+      "medoid_preview": "in collaboration with other institutions in support of the climate change mitigation and adaptation ...",
+      "sample_texts": [
+        "besides addressing climate change and disaster risks it is also the goal of clim...",
+        "sector specific transition pathway initiatives are multiplying as the financial ...",
+        "in collaboration with other institutions in support of the climate change mitiga..."
+      ]
+    },
+    "14": {
+      "size": 10,
+      "percentage": 2.73224043715847,
+      "medoid_preview": "wow the ball is truly rolling to reduce ghg s bipartisanclimate really works so and keep climateacti...",
+      "sample_texts": [
+        "rowan receives 315k of bipartisan infrastructure funding to reduce pollution by ...",
+        "correct answer you win a carbon credit...",
+        "for politicians to make significant steps it is necessary to consolidate awarene..."
+      ]
+    },
+    "15": {
+      "size": 11,
+      "percentage": 3.0054644808743167,
+      "medoid_preview": "daily sanitation activities like bush cutting drain cleaning d2d segregated waste collection is bein...",
+      "sample_texts": [
+        "we re committed to offer solutions to waste management zoomlion to govt via...",
+        "we need more skeletons in the sewer is the kind of urban planning i m here for...",
+        "daily sanitation activities like bush cutting drain cleaning d2d segregated wast..."
+      ]
+    },
+    "16": {
+      "size": 8,
+      "percentage": 2.185792349726776,
+      "medoid_preview": "if the tourism sector is serious about reducing its footprint they should choose real emission reduc...",
+      "sample_texts": [
+        "if govt hotel owners being very assertive the casino gaming is game changer to d...",
+        "if the tourism sector is serious about reducing its footprint they should choose...",
+        "aiming for a low carbon future india and are partners with csir iip scindia airl..."
+      ]
+    },
+    "17": {
+      "size": 5,
+      "percentage": 1.366120218579235,
+      "medoid_preview": "amazon forest is crucial for the regulation of the planet s climate however due to the increasing ra...",
+      "sample_texts": [
+        "a tactically designed 100 foot wide tree barrier will reduce noise by 5 to 8 dec...",
+        "we can actually see the leaf producing oxygen grow more trees to keep our air br...",
+        "help protect the amazon make your voice heard petition forest forests rainforest..."
+      ]
+    },
+    "18": {
+      "size": 10,
+      "percentage": 2.73224043715847,
+      "medoid_preview": "this nonprofit helps people in the meat alternative industry current meat and dairy production pract...",
+      "sample_texts": [
+        "good news the food regulator fssai has released draft norms for front of the pac...",
+        "the international medical organizations such as the american society for microbi...",
+        "the hours used to be better pre covid but this place is great to grab vegan food..."
+      ]
+    },
+    "19": {
+      "size": 4,
+      "percentage": 1.092896174863388,
+      "medoid_preview": "there s more capital going into organic agriculture than ever before...",
+      "sample_texts": [
+        "farming organically can protect against flooding because organic soils store twi...",
+        "this is true although china produces 50 of apples on earth not all of china is a...",
+        "there s more capital going into organic agriculture than ever before..."
+      ]
+    },
+    "20": {
+      "size": 5,
+      "percentage": 1.366120218579235,
+      "medoid_preview": "coal is sustainable energy...",
+      "sample_texts": [
+        "coal is sustainable energy...",
+        "acme clearly natural gas or ch4 if you prefer is significantly superior to burni...",
+        "hey everybody s mom look we re sustainable now..."
+      ]
+    },
+    "21": {
+      "size": 5,
+      "percentage": 1.366120218579235,
+      "medoid_preview": "are essential for improving soil health wangari maathai pointed out that tea has displaced polycultu...",
+      "sample_texts": [
+        "gin loughlan manager climate and water agriculture at the ministry for the envir...",
+        "in puerto rico activists transform abandoned land to build food sovereignty...",
+        "are essential for improving soil health wangari maathai pointed out that tea has..."
+      ]
+    },
+    "22": {
+      "size": 3,
+      "percentage": 0.819672131147541,
+      "medoid_preview": "i ve been worried sick all night after not hearing from my dad in capecoral florida and wish i could...",
+      "sample_texts": [
+        "top of the morning if each one of us does our bit we will be helping to keep glo...",
+        "i ve been worried sick all night after not hearing from my dad in capecoral flor...",
+        "the green beret area study workbook is critical to understanding where you live ..."
+      ]
+    },
+    "23": {
+      "size": 17,
+      "percentage": 4.644808743169399,
+      "medoid_preview": "climatechange is the biggest threat that humanity has ever faced this challenge not only represents ...",
+      "sample_texts": [
+        "we are studying several features for 2050 to make energy positive buildings desp...",
+        "emergency intervention proposals should be evaluated against three principles 1 ...",
+        "an impossible whopper or an ev reducing meat consumption is the most effective t..."
+      ]
+    },
+    "24": {
+      "size": 3,
+      "percentage": 0.819672131147541,
+      "medoid_preview": "this german department store sells only recycled products world economic forum recycling environment...",
+      "sample_texts": [
+        "just sold a couple of these shirts which i made using placeit 6 months ago somet...",
+        "ikea is buying back your old furniture world economic forum reuse environment...",
+        "this german department store sells only recycled products world economic forum r..."
+      ]
+    },
+    "25": {
+      "size": 2,
+      "percentage": 0.546448087431694,
+      "medoid_preview": "i was on a plant based kick for a little bit mainly for health reasons protein intake was never a co...",
+      "sample_texts": [
+        "i was on a plant based kick for a little bit mainly for health reasons protein i...",
+        "i must saying being plant based is definitely a beautiful challenge and transiti..."
+      ]
+    },
+    "26": {
+      "size": 3,
+      "percentage": 0.819672131147541,
+      "medoid_preview": "uk experts drive peru s ongoing response to february s oil spill in the pacific ocean information ab...",
+      "sample_texts": [
+        "ministry prepares to bring action over oil spill...",
+        "uk experts drive peru s ongoing response to february s oil spill in the pacific ...",
+        "an oil spill in peru caused by repsol has contaminated a whole coastline and lit..."
+      ]
+    },
+    "27": {
+      "size": 6,
+      "percentage": 1.639344262295082,
+      "medoid_preview": "why not invest in properties having solar panels installed with battery technology for storage cheap...",
+      "sample_texts": [
+        "i wouldn t rest for min two years buy up every for closed property i can on purp...",
+        "not really both nuclear and renewables are extremely safe negligible risk compar...",
+        "you would need more than 3 million solar panels to produce the same amount of po..."
+      ]
+    },
+    "28": {
+      "size": 7,
+      "percentage": 1.912568306010929,
+      "medoid_preview": "apparently beyond meat is better for the earth but not necessarily healthier than a regular burger f...",
+      "sample_texts": [
+        "as a control freak it offers an alternative too much poking spoils the meat bein...",
+        "i mean you re being small minded to think people don t eat meat just because of ...",
+        "we ll go beyond a scientific concept to a tangible and delicious meat that s mor..."
+      ]
+    },
+    "29": {
+      "size": 5,
+      "percentage": 1.366120218579235,
+      "medoid_preview": "as long as it works for you i have given up eating fish after the plastic pollution in our oceans...",
+      "sample_texts": [
+        "there s nothing more refreshing than a nice dip through sewage waste water...",
+        "reusing 10 of single use plastics will halve plastic pollution in the ocean...",
+        "tracking ian carbon monoxide medication mistakes food poisoning contaminated wat..."
+      ]
+    },
+    "30": {
+      "size": 1,
+      "percentage": 0.273224043715847,
+      "medoid_preview": "batz an emerald green island in france s brittany region batz is an emerald green island off roscoff...",
+      "sample_texts": [
+        "batz an emerald green island in france s brittany region batz is an emerald gree..."
+      ]
+    },
+    "31": {
+      "size": 2,
+      "percentage": 0.546448087431694,
+      "medoid_preview": "a swedish company wants to transform offshore wind with vertical axis turbines...",
+      "sample_texts": [
+        "a swedish company wants to transform offshore wind with vertical axis turbines...",
+        "their project director said that the wind farm had brought in more than 140 mill..."
+      ]
+    },
+    "32": {
+      "size": 1,
+      "percentage": 0.273224043715847,
+      "medoid_preview": "negative impression will be cured once the movie actually releases and is good then those people can...",
+      "sample_texts": [
+        "negative impression will be cured once the movie actually releases and is good t..."
+      ]
+    },
+    "33": {
+      "size": 1,
+      "percentage": 0.273224043715847,
+      "medoid_preview": "ig heart disease kills the most americans every year the no 1 risk factor is cholesterol obtained vi...",
+      "sample_texts": [
+        "ig heart disease kills the most americans every year the no 1 risk factor is cho..."
+      ]
+    },
+    "34": {
+      "size": 8,
+      "percentage": 2.185792349726776,
+      "medoid_preview": "organic farmers like the ones who grow our machu picchu amp mayan gold coffee use nature based metho...",
+      "sample_texts": [
+        "genetically modified plants biomatter trenches and experimental forests to creat...",
+        "sof my daughter wants to gi into sustainable agriculture when she goes off to co...",
+        "if we are to factor that in has to be together with gmo crops modified to combat..."
+      ]
+    },
+    "35": {
+      "size": 1,
+      "percentage": 0.273224043715847,
+      "medoid_preview": "stake vs work centralized control masked by green gaslight vs real descentralized power to secure di...",
+      "sample_texts": [
+        "stake vs work centralized control masked by green gaslight vs real descentralize..."
+      ]
+    },
+    "36": {
+      "size": 3,
+      "percentage": 0.819672131147541,
+      "medoid_preview": "priyanka chopra jonas has delivered a powerful speech at the sustainable development goals moment at...",
+      "sample_texts": [
+        "kongony at least he mentioned sustainable development goals severally...",
+        "we each can interpret that different and still be in green light territory for m...",
+        "priyanka chopra jonas has delivered a powerful speech at the sustainable develop..."
+      ]
+    },
+    "37": {
+      "size": 10,
+      "percentage": 2.73224043715847,
+      "medoid_preview": "presenting a new research project with prof on informational governance and climate action held by t...",
+      "sample_texts": [
+        "a green city project covering an area of 620 hectares in the suburb of kinyinya ...",
+        "reflective of some of the things qld has been calling for to create a more clima...",
+        "with the aim to minimize use of paper and in attempt to move towards digital gov..."
+      ]
+    },
+    "38": {
+      "size": 6,
+      "percentage": 1.639344262295082,
+      "medoid_preview": "it is everyone s job to drive sustainable transformation watch this session on salesforce to learn t...",
+      "sample_texts": [
+        "it is everyone s job to drive sustainable transformation watch this session on s...",
+        "corporate social responsibility csr can help india achieve its sustainable devel...",
+        "an increase in cost is often seen as a roadblock in sustainableproduct design bu..."
+      ]
+    },
+    "39": {
+      "size": 12,
+      "percentage": 3.278688524590164,
+      "medoid_preview": "absolutely climate change will not wait on us so we have to act please consider donating to us as we...",
+      "sample_texts": [
+        "water pollution is putting our health at risk unsafe water kills more people eac...",
+        "please let us know the minute he s disbarred i am going to have a party it will ...",
+        "climate change is real we should however act responsibly rather than create more..."
+      ]
+    },
+    "40": {
+      "size": 5,
+      "percentage": 1.366120218579235,
+      "medoid_preview": "we essentially have no power bills at this point find out how geothermalenergy is saving texans sign...",
+      "sample_texts": [
+        "doesn t matter all that matters is independent energy production for every home ...",
+        "with 1 500 miles of abandoned mine land impaired streams in wv extracting critic...",
+        "let s also add that aoc helped raise over 5 million for people in texas a big ol..."
+      ]
+    },
+    "41": {
+      "size": 2,
+      "percentage": 0.546448087431694,
+      "medoid_preview": "try and avoid high fructose corn syrup at all cost it doesn t do anything good for you only make you...",
+      "sample_texts": [
+        "try and avoid high fructose corn syrup at all cost it doesn t do anything good f...",
+        "having the coffee with the healthier and tasty littleheartsmuesli makes it longe..."
+      ]
+    },
+    "42": {
+      "size": 3,
+      "percentage": 0.819672131147541,
+      "medoid_preview": "haffi go lock dung hwt enuh and plant some trees and throw in some green spaces and buy couple bicyc...",
+      "sample_texts": [
+        "to fund me walking around state and national parks or other green spaces plantin...",
+        "haffi go lock dung hwt enuh and plant some trees and throw in some green spaces ...",
+        "look after our green spaces and grow them imaginebamboo worldbambooday takingroo..."
+      ]
+    },
+    "43": {
+      "size": 1,
+      "percentage": 0.273224043715847,
+      "medoid_preview": "bulk sample drilling ongoing at khotgor ree project as the rigs move onto 5th and 6th holes as pbl c...",
+      "sample_texts": [
+        "bulk sample drilling ongoing at khotgor ree project as the rigs move onto 5th an..."
+      ]
+    },
+    "44": {
+      "size": 4,
+      "percentage": 1.092896174863388,
+      "medoid_preview": "organizations committed to reducing waste and energy consumption often overlook one of the greatest ...",
+      "sample_texts": [
+        "but moving into ethereum now also makes sense because of another factor esg or e...",
+        "to measure how green an environment is these earlier studies have often used ndv...",
+        "organizations committed to reducing waste and energy consumption often overlook ..."
+      ]
+    },
+    "45": {
+      "size": 3,
+      "percentage": 0.819672131147541,
+      "medoid_preview": "hardi yakubu calls on africa to unite against gmo food imperialism via ghana...",
+      "sample_texts": [
+        "hardi yakubu calls on africa to unite against gmo food imperialism via ghana...",
+        "once again the giants in waste management in africa have lifted the flag of ghan...",
+        "cfi my oga s nla farmer we need to start advocating for seed multiplications in ..."
+      ]
+    },
+    "46": {
+      "size": 4,
+      "percentage": 1.092896174863388,
+      "medoid_preview": "despite some criticism of labour s fairer greener future conference tagline the green energy plan co...",
+      "sample_texts": [
+        "green lake and area residents are invited to attend a public meeting to discuss ...",
+        "is thorium the leading element for a future of green energy check out the pros a...",
+        "despite some criticism of labour s fairer greener future conference tagline the ..."
+      ]
+    },
+    "47": {
+      "size": 6,
+      "percentage": 1.639344262295082,
+      "medoid_preview": "gentle reminder that non human animals are conscious and not objects and that factory farming is hor...",
+      "sample_texts": [
+        "gentle reminder that non human animals are conscious and not objects and that fa...",
+        "yeah imagine life with cheap energy bills natural no gmo food no homosexual prop...",
+        "despite the increasing alarm over climate change the number of americans who are..."
+      ]
+    },
+    "48": {
+      "size": 5,
+      "percentage": 1.366120218579235,
+      "medoid_preview": "wilson greenpeace is working all over the world to push governments to clean up polluting industries...",
+      "sample_texts": [
+        "wilson greenpeace is working all over the world to push governments to clean up ...",
+        "moving away from capitalism green washing is not easy under the current systems ...",
+        "bouy greenenergy is a resource that does not produce ongoing pollution airpollut..."
+      ]
+    },
+    "49": {
+      "size": 7,
+      "percentage": 1.912568306010929,
+      "medoid_preview": "great role for someone with a real passion for parks and green spaces greenjobs environment parks ba...",
+      "sample_texts": [
+        "thank you to everyone who made it to the public consultations last week to discu...",
+        "central park conservancy exec on keeping up the city s green spaces...",
+        "central environmentalist mapping campus identifying green spaces generating lege..."
+      ]
+    },
+    "50": {
+      "size": 4,
+      "percentage": 1.092896174863388,
+      "medoid_preview": "more easing more inflation more money printing for that net zero 150 t 2050...",
+      "sample_texts": [
+        "more easing more inflation more money printing for that net zero 150 t 2050...",
+        "this is why recessions are good for the economy it clears out waste and economic...",
+        "foran s ambitious net zero plans for mcilvenna bay attract investors written by ..."
+      ]
+    },
+    "51": {
+      "size": 2,
+      "percentage": 0.546448087431694,
+      "medoid_preview": "state says apple tree park water quality improved after concerns raised in the spring...",
+      "sample_texts": [
+        "state says apple tree park water quality improved after concerns raised in the s...",
+        "happy national forest week help us plant 620 new trees in farmcrest park this sa..."
+      ]
+    },
+    "52": {
+      "size": 3,
+      "percentage": 0.819672131147541,
+      "medoid_preview": "commission mare odtu ims project ports have an important role in sustainable blueeconomy and innovat...",
+      "sample_texts": [
+        "shell petronas to develop the rosmari marjoram gas project off the coast of mala...",
+        "first all electric vessel in singapore port to use shift clean energy tech...",
+        "commission mare odtu ims project ports have an important role in sustainable blu..."
+      ]
+    },
+    "53": {
+      "size": 4,
+      "percentage": 1.092896174863388,
+      "medoid_preview": "saudiarabia s ksa enhances uses of renewableenergy in its systems starts using solar panels on water...",
+      "sample_texts": [
+        "saudiarabia s ksa enhances uses of renewableenergy in its systems starts using s...",
+        "countless studies have found that because output from wind amp solar replaces fo...",
+        "slight decrease in primary control power which is to be expected with less fossi..."
+      ]
+    },
+    "54": {
+      "size": 6,
+      "percentage": 1.639344262295082,
+      "medoid_preview": "organic farming is the major alternative to growing problems of harmful chemicals allnatural samrudd...",
+      "sample_texts": [
+        "chose organic and sustainable protein today order link in bio or visit real food...",
+        "organic farming is the major alternative to growing problems of harmful chemical...",
+        "uduma mukeshimana dusabimana pure organic safe food comes from dirty soils..."
+      ]
+    },
+    "55": {
+      "size": 4,
+      "percentage": 1.092896174863388,
+      "medoid_preview": "after the program kids learned how to recognize single use plastics come up with solutions to the pl...",
+      "sample_texts": [
+        "what i do to be environmentfriendly misha paul as a child though i wasn t aware ...",
+        "after the program kids learned how to recognize single use plastics come up with...",
+        "the invention of plastic has made life easy and convenient but its mismanagement..."
+      ]
+    },
+    "56": {
+      "size": 1,
+      "percentage": 0.273224043715847,
+      "medoid_preview": "in general people consider being helpful as a positive trait so you might not identify anything wron...",
+      "sample_texts": [
+        "in general people consider being helpful as a positive trait so you might not id..."
+      ]
+    },
+    "57": {
+      "size": 6,
+      "percentage": 1.639344262295082,
+      "medoid_preview": "the united nations environmental programme along with uk based charity reef world foundation recentl...",
+      "sample_texts": [
+        "if we forget about the amazing functionality it must also be said that the uniqu...",
+        "the ningaloo coast worldheritage site generates more than 1000 sustainable full ...",
+        "craven community college is collaborating with the coastal environmental partner..."
+      ]
+    },
+    "58": {
+      "size": 4,
+      "percentage": 1.092896174863388,
+      "medoid_preview": "it s world environmental health day today and every day our department is dedicated to promoting and...",
+      "sample_texts": [
+        "it s world environmental health day today and every day our department is dedica...",
+        "environmental health plays a pivotal role in the implementation of sdgs strength...",
+        "nature empowers you with great health and peace of mind on this world heart day ..."
+      ]
+    },
+    "59": {
+      "size": 3,
+      "percentage": 0.819672131147541,
+      "medoid_preview": "such as coal hence russia looting these ressources america is also benefiting from it their military...",
+      "sample_texts": [
+        "such as coal hence russia looting these ressources america is also benefiting fr...",
+        "ak jeff look i believe they are they are great americans i feel like they have b...",
+        "unfortunately russia is the world s largest exporter of nuclear plants but south..."
+      ]
+    },
+    "60": {
+      "size": 1,
+      "percentage": 0.273224043715847,
+      "medoid_preview": "only in green ridges hotel best place to chill out icecream dessert cream creme food pizza...",
+      "sample_texts": [
+        "only in green ridges hotel best place to chill out icecream dessert cream creme ..."
+      ]
+    },
+    "61": {
+      "size": 13,
+      "percentage": 3.551912568306011,
+      "medoid_preview": "sitting around waiting for the government to tax people s carbon emissions isn t going to solve the ...",
+      "sample_texts": [
+        "i m calling on prime minister ardern to cut climate pollution from nz s biggest ...",
+        "it s climateweek and the council is advancing bold innovative solutions to tackl...",
+        "extinction is forever amp for all we know we have lost what we will need to fix ..."
+      ]
+    },
+    "62": {
+      "size": 1,
+      "percentage": 0.273224043715847,
+      "medoid_preview": "an excellent thread highlighting some key points from the new annual review on carbonleakage consump...",
+      "sample_texts": [
+        "an excellent thread highlighting some key points from the new annual review on c..."
+      ]
+    },
+    "63": {
+      "size": 1,
+      "percentage": 0.273224043715847,
+      "medoid_preview": "how can we prevent voter fraud at next election the excellent ch4 tv drame the undeclared war consid...",
+      "sample_texts": [
+        "how can we prevent voter fraud at next election the excellent ch4 tv drame the u..."
+      ]
+    },
+    "64": {
+      "size": 4,
+      "percentage": 1.092896174863388,
+      "medoid_preview": "may get co2 meter see results in a few places maybe see about an article based on this to emphasise ...",
+      "sample_texts": [
+        "could a carbon neutral hot air balloon hotel become a reality...",
+        "may get co2 meter see results in a few places maybe see about an article based o...",
+        "i think long before the end of your friend s life we will switch to much more st..."
+      ]
+    },
+    "65": {
+      "size": 2,
+      "percentage": 0.546448087431694,
+      "medoid_preview": "very productive week at dromhall hotel with the lifting positioning and installation of a 63kw solar...",
+      "sample_texts": [
+        "greetings partners in service join us this friday and we collect as many trees a...",
+        "very productive week at dromhall hotel with the lifting positioning and installa..."
+      ]
+    },
+    "66": {
+      "size": 2,
+      "percentage": 0.546448087431694,
+      "medoid_preview": "i vote democrat because the conspiracy theorists promise me that joe biden n the center left will en...",
+      "sample_texts": [
+        "i vote democrat because the conspiracy theorists promise me that joe biden n the...",
+        "i don t because i don t want to live through polio smallpox whooping cough dipht..."
+      ]
+    },
+    "67": {
+      "size": 1,
+      "percentage": 0.273224043715847,
+      "medoid_preview": "time to bust out the tote bags...",
+      "sample_texts": [
+        "time to bust out the tote bags..."
+      ]
+    },
+    "68": {
+      "size": 1,
+      "percentage": 0.273224043715847,
+      "medoid_preview": "tesco trial has now removed cardboard box packaging from major toothpaste brands such as oral b colg...",
+      "sample_texts": [
+        "tesco trial has now removed cardboard box packaging from major toothpaste brands..."
+      ]
+    },
+    "69": {
+      "size": 8,
+      "percentage": 2.185792349726776,
+      "medoid_preview": "american chemists have developed a set of reactions that allows you to completely recycle waste plas...",
+      "sample_texts": [
+        "american chemists have developed a set of reactions that allows you to completel...",
+        "unlike a plastic carton glass can be fully recycled and is a much more sustainab...",
+        "indian pet recycling industry is expected to grow exponentially in the coming ye..."
+      ]
+    },
+    "70": {
+      "size": 3,
+      "percentage": 0.819672131147541,
+      "medoid_preview": "a good rule of thumb i ve learned in the past few years is when speaks listen thanks to her amp wong...",
+      "sample_texts": [
+        "when you listen to greta thunberg stop oil and gas exploration and start dependi...",
+        "in her speech at the 50th anniversary event she points to the missions to achiev...",
+        "a good rule of thumb i ve learned in the past few years is when speaks listen th..."
+      ]
+    },
+    "71": {
+      "size": 5,
+      "percentage": 1.366120218579235,
+      "medoid_preview": "labour is right it s time for britain to profit from its own renewables mathew lawrence...",
+      "sample_texts": [
+        "sdgs nigeria sdgfinance undp only can end illegal tax collection police brutalit...",
+        "labour is right it s time for britain to profit from its own renewables mathew l...",
+        "think it s high time for the energy market of this country to be unlocked fro th..."
+      ]
+    },
+    "72": {
+      "size": 1,
+      "percentage": 0.273224043715847,
+      "medoid_preview": "primary books can t b thebig issue for parents most schools offer book rental schemes which encourag...",
+      "sample_texts": [
+        "primary books can t b thebig issue for parents most schools offer book rental sc..."
+      ]
+    }
+  }
+}
