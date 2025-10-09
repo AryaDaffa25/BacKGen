@@ -1,0 +1,206 @@
+{
+  "total_texts": 108,
+  "num_clusters": 20,
+  "polarity": "positive",
+  "clusters": {
+    "0": {
+      "size": 3,
+      "percentage": 2.7777777777777777,
+      "medoid_preview": "i don t because i don t want to live through polio smallpox whooping cough diphtheria measles covid ...",
+      "sample_texts": [
+        "i don t because i don t want to live through polio smallpox whooping cough dipht...",
+        "i vote democrat because the conspiracy theorists promise me that joe biden n the...",
+        "in general people consider being helpful as a positive trait so you might not id..."
+      ]
+    },
+    "1": {
+      "size": 7,
+      "percentage": 6.481481481481481,
+      "medoid_preview": "organizations committed to reducing waste and energy consumption often overlook one of the greatest ...",
+      "sample_texts": [
+        "to measure how green an environment is these earlier studies have often used ndv...",
+        "how is wind and solar going to meet our energy demands we are following green pe...",
+        "why do we need fusionenergy fusion could be the key to limitless sustainable ene..."
+      ]
+    },
+    "2": {
+      "size": 7,
+      "percentage": 6.481481481481481,
+      "medoid_preview": "climate change is destroying our path to sustainability we need to embrace climate justice conversat...",
+      "sample_texts": [
+        "a tanzanian climate entrepreneur was recently named among 17 young leaders whose...",
+        "amazon forest is crucial for the regulation of the planet s climate however due ...",
+        "fare thee well mr thuti an indefatigable grassroots environment crusader your co..."
+      ]
+    },
+    "3": {
+      "size": 5,
+      "percentage": 4.62962962962963,
+      "medoid_preview": "i completely understand what the government is trying to do but isn t this policy good for the big h...",
+      "sample_texts": [
+        "for its long standing efforts to conserve the natural environment and encourage ...",
+        "is tourism tax the way forward for a sustainable industry...",
+        "i completely understand what the government is trying to do but isn t this polic..."
+      ]
+    },
+    "4": {
+      "size": 4,
+      "percentage": 3.7037037037037033,
+      "medoid_preview": "yes the greenbelt as a park would help clean our air but you know what else would help properly main...",
+      "sample_texts": [
+        "air pollution decreased by almost 90 in brussels on car free sunday carfreesunda...",
+        "i think pr would be a wonderful place for a great experiment because it s a conf...",
+        "about the park 36 acres of recreation space long bridge park is a showplace of e..."
+      ]
+    },
+    "5": {
+      "size": 7,
+      "percentage": 6.481481481481481,
+      "medoid_preview": "nl if we put that money into donating organic food to the food banks things would change drastically...",
+      "sample_texts": [
+        "indian government bans plastic straws in july 2022 plastic straws are replaced w...",
+        "nl if we put that money into donating organic food to the food banks things woul...",
+        "under current rules regulators can t stop companies from selling contaminated ch..."
+      ]
+    },
+    "6": {
+      "size": 8,
+      "percentage": 7.4074074074074066,
+      "medoid_preview": "from serving the business owners in our communities to construction workers on the job site we are c...",
+      "sample_texts": [
+        "when the land is swept clean of false friends and greedy thieves we will build a...",
+        "as part of our planetmobilization initiative we are committed to reducing our en...",
+        "disposal methods after clearing the dumpsite asf givinghope letsdomoretogether a..."
+      ]
+    },
+    "7": {
+      "size": 4,
+      "percentage": 3.7037037037037033,
+      "medoid_preview": "ar fryn oil i to would like less dependency on oil and gas you only look at the negatives but you th...",
+      "sample_texts": [
+        "ar fryn oil i to would like less dependency on oil and gas you only look at the ...",
+        "dr pepper is proof of concept they can gmo eco friendly synthetic gasoline...",
+        "first all electric vessel in singapore port to use shift clean energy tech..."
+      ]
+    },
+    "8": {
+      "size": 4,
+      "percentage": 3.7037037037037033,
+      "medoid_preview": "this session will revolve around groundbreaking technologies high impact projects policy updates and...",
+      "sample_texts": [
+        "nagel presenting info on climate change and effects like asthma flooding etc on ...",
+        "24 hrs water supply will be a game changer if the scheme succeeds it will lower ...",
+        "a lot of maui s water is redirected to provide for the dry tourist areas let s u..."
+      ]
+    },
+    "9": {
+      "size": 4,
+      "percentage": 3.7037037037037033,
+      "medoid_preview": "great to see investigations that include veganism in addition to ghg emissions vegan diets appear to...",
+      "sample_texts": [
+        "possibly because they re using actual ingredients in their bread their butter is...",
+        "ig heart disease kills the most americans every year the no 1 risk factor is cho...",
+        "great to see investigations that include veganism in addition to ghg emissions v..."
+      ]
+    },
+    "10": {
+      "size": 5,
+      "percentage": 4.62962962962963,
+      "medoid_preview": "farmer i don t think that s been taken into account yet since the proportion is still very small but...",
+      "sample_texts": [
+        "may get co2 meter see results in a few places maybe see about an article based o...",
+        "organic farmers like the ones who grow our machu picchu amp mayan gold coffee us...",
+        "farming organically can protect against flooding because organic soils store twi..."
+      ]
+    },
+    "11": {
+      "size": 4,
+      "percentage": 3.7037037037037033,
+      "medoid_preview": "a green city project covering an area of 620 hectares in the suburb of kinyinya hill rwanda launches...",
+      "sample_texts": [
+        "national grid seek solutions in low carbon construction materials or net zero co...",
+        "a green city project covering an area of 620 hectares in the suburb of kinyinya ...",
+        "presenting a new research project with prof on informational governance and clim..."
+      ]
+    },
+    "12": {
+      "size": 4,
+      "percentage": 3.7037037037037033,
+      "medoid_preview": "the ningaloo coast worldheritage site generates more than 1000 sustainable full time jobs primarily ...",
+      "sample_texts": [
+        "unfortunately not the most inclusive panel for worldtourismday when sdg5 and dei...",
+        "istria ups its sustainable tourism credentials time out...",
+        "batz an emerald green island in france s brittany region batz is an emerald gree..."
+      ]
+    },
+    "13": {
+      "size": 4,
+      "percentage": 3.7037037037037033,
+      "medoid_preview": "handcrafted recycled benches made from donated bed frames zerowastescotland recycle resell reuse res...",
+      "sample_texts": [
+        "ikea is buying back your old furniture world economic forum reuse environment...",
+        "handcrafted recycled benches made from donated bed frames zerowastescotland recy...",
+        "oakland has set up some mini home communities for the homeless on previously unu..."
+      ]
+    },
+    "14": {
+      "size": 11,
+      "percentage": 10.185185185185185,
+      "medoid_preview": "it is exactly what the wef leaders like biden merkel trudeau etc have been stating as policy for yea...",
+      "sample_texts": [
+        "a good rule of thumb i ve learned in the past few years is when speaks listen th...",
+        "no 50 years that we know of unknown reserves are just that unknown also with car...",
+        "scientism like they should have realized 8 years ago that they should diversify ..."
+      ]
+    },
+    "15": {
+      "size": 5,
+      "percentage": 4.62962962962963,
+      "medoid_preview": "our planet our health let s not indulge in blaming environmentalists governments ngos and act togeth...",
+      "sample_texts": [
+        "absolutely climate change will not wait on us so we have to act please consider ...",
+        "we each can interpret that different and still be in green light territory for m...",
+        "be green say no to plastic ecofriendly environment environmentfriendly growyouro..."
+      ]
+    },
+    "16": {
+      "size": 5,
+      "percentage": 4.62962962962963,
+      "medoid_preview": "federal loan programs helped companies like tesla and ford rapidly expand ev and clean energy produc...",
+      "sample_texts": [
+        "state owned generation would be great as it can play a huge part in keeping ener...",
+        "federal loan programs helped companies like tesla and ford rapidly expand ev and...",
+        "rural opportunities the inflation reduction act supports climate smart agricultu..."
+      ]
+    },
+    "17": {
+      "size": 8,
+      "percentage": 7.4074074074074066,
+      "medoid_preview": "thank you to everyone who made it to the public consultations last week to discuss the green space m...",
+      "sample_texts": [
+        "at an appeal hearing thursday afternoon adams sanitation was given the green lig...",
+        "crowdsourcing is redirecting cities climate change responses in richmond virgini...",
+        "first became aware of the sdgs when i was part of the leadership program class o..."
+      ]
+    },
+    "18": {
+      "size": 2,
+      "percentage": 1.8518518518518516,
+      "medoid_preview": "yes there were issues with waste and hygiene but the idea of people emptying chamberpots into the st...",
+      "sample_texts": [
+        "yes there were issues with waste and hygiene but the idea of people emptying cha...",
+        "big changes to bin collections in sevenoaks..."
+      ]
+    },
+    "20": {
+      "size": 6,
+      "percentage": 5.555555555555555,
+      "medoid_preview": "crespeo joins campaign for circular agri food supply chain foodnews foodbusinessafrica foodindustry ...",
+      "sample_texts": [
+        "crespeo joins campaign for circular agri food supply chain foodnews foodbusiness...",
+        "from october 4 6 will be a sponsor and participant at the sustainable protein fo...",
+        "the 1st time i went to europe i noticed a difference in the food quality instant..."
+      ]
+    }
+  }
+}
