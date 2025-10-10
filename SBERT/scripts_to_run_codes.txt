@@ -1,0 +1,40 @@
+python clustering_medoid_test.py --positive_jsonl data/embeddings/fold_5/fold_5-train-spc_positive_embeddings.jsonl --positive_pkl data/embeddings/fold_5/fold_5-train-spc_positive_embeddings.pkl --negative_jsonl data/embeddings/fold_5/fold_5-train-spc_negative_embeddings.jsonl --negative_pkl data/embeddings/fold_5/fold_5-train-spc_negative_embeddings.pkl --output_base data/clustered/fold_5
+
+
+python llm_inference_bulk_updated.py --input_file_path ../data/clustered/fold_5/fold_5-train-spc_positive_embeddings_clusters.jsonl --output_file_path ../data/bk/fold_5/fold_5-spc_positive_bk.jsonl --list_inference_attribute list_text_source,polarity_label --prompt_task_type bk_direct --prompt_variant 1 --model_name mistralai/Mistral-7B-Instruct-v0.2 --hf_token {your_token}
+
+
+
+python llm_inference_bulk_updated.py --input_file_path ../data/clustered/fold_5/fold_5-train-spc_negative_embeddings_clusters.jsonl --output_file_path ../data/bk/fold_5/fold_5-spc_negative_bk.jsonl --list_inference_attribute list_text_source,polarity_label --prompt_task_type bk_direct --prompt_variant 1 --model_name mistralai/Mistral-7B-Instruct-v0.2 --hf_token {your_token}
+
+
+
+
+python -c "from converter.pk_preprocessor import bk_preprocessor_file2file; bk_preprocessor_file2file('data/bk/fold_5/fold_5-spc_positive_bk.jsonl', 'data/bk/fold_5/fold_5-spc_positive_bk_cleaned.jsonl', 'single_sentence')"
+
+python -c "from converter.pk_preprocessor import bk_preprocessor_file2file; bk_preprocessor_file2file('data/bk/fold_5/fold_5-spc_negative_bk.jsonl', 'data/bk/fold_5/fold_5-spc_negative_bk_cleaned.jsonl', 'single_sentence')"
+
+
+
+
+get_bk_exmbert_spc (train):
+python -c "from get_bk.get_bk_exmbert_spc import get_bk_exmbert_spc; \
+get_bk_exmbert_spc(
+    ssa_input_jsonl_path='data/fold_5-test-spc.jsonl',
+    ssa_output_jsonl_path='data/selected_bk/fold_5-spc_exmbert.jsonl',
+    negative_bk_jsonl_path='data/bk/fold_5/fold_5-spc_negative_bk_cleaned.jsonl',
+    positive_bk_jsonl_path='data/bk/fold_5/fold_5-spc_positive_bk_cleaned.jsonl',
+    splitted_st_negative_ex_jsonl_path='data/splitted/fold_5/fold_5-train-spc_negative.jsonl',
+    splitted_st_positive_ex_jsonl_path='data/splitted/fold_5/fold_5-train-spc_positive.jsonl',
+    sim_attribute='text'
+)"
+
+
+
+========================================================================================================================
+
+python llm_inference_bulk.py --input_file_path ../data/selected_bk/fold_3/fold_3-spc_exmbert.jsonl --output_file_path ../data/bk_shot_result/fold_3/fold_3-spc_result.jsonl --list_inference_attribute text,st_span,bert_text_list_all_bk_each_frame --prompt_task_type spc_bk_with_explanation --prompt_variant 1 --model_name mistralai/Mistral-7B-Instruct-v0.2 --hf_token {your_token}
+
+python llm_inference_bulk.py --input_file_path ../data/selected_bk/fold_4/fold_4-spc_exmbert.jsonl --output_file_path ../data/bk_shot_result/fold_4/fold_4-spc_result.jsonl --list_inference_attribute text,st_span,bert_text_list_all_bk_each_frame --prompt_task_type spc_bk_with_explanation --prompt_variant 1 --model_name mistralai/Mistral-7B-Instruct-v0.2 --hf_token {your_token}
+
+python llm_inference_bulk.py --input_file_path ../data/selected_bk/fold_5/fold_5-spc_exmbert.jsonl --output_file_path ../data/bk_shot_result/fold_5/fold_5-spc_result.jsonl --list_inference_attribute text,st_span,bert_text_list_all_bk_each_frame --prompt_task_type spc_bk_with_explanation --prompt_variant 1 --model_name mistralai/Mistral-7B-Instruct-v0.2 --hf_token {your_token}
