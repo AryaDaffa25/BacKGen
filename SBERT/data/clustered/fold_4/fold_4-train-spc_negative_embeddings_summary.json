@@ -1,0 +1,970 @@
+{
+  "total_texts": 587,
+  "num_clusters": 98,
+  "polarity": "negative",
+  "clusters": {
+    "1": {
+      "size": 5,
+      "percentage": 0.8517887563884157,
+      "medoid_preview": "extinction is forever amp for all we know we have lost what we will need to fix things when it becom...",
+      "sample_texts": [
+        "extinction is forever amp for all we know we have lost what we will need to fix ...",
+        "anthropocene is bout to kick into full gear and honestly the only way out is gmo...",
+        "march kartikmenon the meltdown in fukushima released isotopes into the ocean 1 n..."
+      ]
+    },
+    "2": {
+      "size": 14,
+      "percentage": 2.385008517887564,
+      "medoid_preview": "dank so the government can control and plant gmo s...",
+      "sample_texts": [
+        "dank so the government can control and plant gmo s...",
+        "u s regulator sued for withholding information on gmo crops...",
+        "our democracy under biden is a gmo..."
+      ]
+    },
+    "3": {
+      "size": 5,
+      "percentage": 0.8517887563884157,
+      "medoid_preview": "you have a hatable face global warming is a real threat to our communities to everybody to everythin...",
+      "sample_texts": [
+        "i hope he styles your nose too that thing looks like a big generator of green ho...",
+        "liar these fear mongers need to stop this bull hit this global cooling global wa...",
+        "climatecrisis as if it wasn t challenging enough globalwarming is increasing the..."
+      ]
+    },
+    "4": {
+      "size": 4,
+      "percentage": 0.6814310051107325,
+      "medoid_preview": "i d be cautious repeating magwood s claims he typically sets up a high upfront carbon straw man and ...",
+      "sample_texts": [
+        "i d be cautious repeating magwood s claims he typically sets up a high upfront c...",
+        "does the irish independent think people in business class cause more emissions t...",
+        "count carbon emissions per head including emissions added due to imports if chin..."
+      ]
+    },
+    "5": {
+      "size": 5,
+      "percentage": 0.8517887563884157,
+      "medoid_preview": "after they private it but waste management is a billion dollar business fertilizers butane methane p...",
+      "sample_texts": [
+        "after they private it but waste management is a billion dollar business fertiliz...",
+        "bring out your knickers socks towels bedlinen amp sneakers to recycle these eco ...",
+        "guilbeault so your government is allowing toxic sewage waste to be spread of far..."
+      ]
+    },
+    "6": {
+      "size": 6,
+      "percentage": 1.0221465076660987,
+      "medoid_preview": "reducing food losses and waste is essential in a world where the number of people affected by hunger...",
+      "sample_texts": [
+        "reducing food losses and waste is essential in a world where the number of peopl...",
+        "don t think nor imagine that by eating less you will get skinny like this stupid...",
+        "if we don t become more conscious of what we waste mother earth will do what s n..."
+      ]
+    },
+    "7": {
+      "size": 12,
+      "percentage": 2.0442930153321974,
+      "medoid_preview": "yep what a waste of fossil energy when the world is in an energy crisis...",
+      "sample_texts": [
+        "public and clinical healthcare professionals treaty calls upon countries to phas...",
+        "president biden s misguided energy transition...",
+        "yep what a waste of fossil energy when the world is in an energy crisis..."
+      ]
+    },
+    "8": {
+      "size": 7,
+      "percentage": 1.192504258943782,
+      "medoid_preview": "their mistake is trying to mimic meat just make a veggie burger...",
+      "sample_texts": [
+        "your tweet is suggesting that you d like anti woke people to continue eating shi...",
+        "because there missing out on there meat lol plus beyond meat stocks are plummeti...",
+        "i will never knowingly or willingly eat imitation meat whether it s cultivated l..."
+      ]
+    },
+    "9": {
+      "size": 16,
+      "percentage": 2.72572402044293,
+      "medoid_preview": "the main issue is that most curbside plastic recycling either gets shipped abroad or burnt for energ...",
+      "sample_texts": [
+        "the main issue is that most curbside plastic recycling either gets shipped abroa...",
+        "we all know plasticpollution is an environmental concern but can pervasive tiny ...",
+        "plastic is the no 1 cause of pollution in the ocean swachhsurvekshan2023hsurveks..."
+      ]
+    },
+    "10": {
+      "size": 5,
+      "percentage": 0.8517887563884157,
+      "medoid_preview": "methane spreads arround the world co2 and other greenhouse gases increases every day and passed the ...",
+      "sample_texts": [
+        "tropomi and ghgsat observes ch4 from shortwave infrared swir wavelengths around ...",
+        "cycle i agree we are back to the beginning of the thread humans caused co2 to ri...",
+        "leavy spewing methane into the atmosphere via the sea..."
+      ]
+    },
+    "11": {
+      "size": 6,
+      "percentage": 1.0221465076660987,
+      "medoid_preview": "food insecurity caused by inflation which was caused by both of you giving away money and ending our...",
+      "sample_texts": [
+        "2023 1 stop the lies being pushed by the so called elites 2 stop all wars 3 stop...",
+        "food insecurity caused by inflation which was caused by both of you giving away ...",
+        "act of god clauses in insurance policies will be challenged in court on these gr..."
+      ]
+    },
+    "12": {
+      "size": 5,
+      "percentage": 0.8517887563884157,
+      "medoid_preview": "oh there s plenty of climateemergency declarations already it s just governments aren t actually tre...",
+      "sample_texts": [
+        "oh there s plenty of climateemergency declarations already it s just governments...",
+        "that is also likely to be a mistake as well the policy gaps are miles wide they ...",
+        "sir i think that conventions should be legally binding because world is not focu..."
+      ]
+    },
+    "13": {
+      "size": 2,
+      "percentage": 0.34071550255536626,
+      "medoid_preview": "the answer is none ndp and others cherry pick who they platform the ndp is a progressive conservativ...",
+      "sample_texts": [
+        "the answer is none ndp and others cherry pick who they platform the ndp is a pro...",
+        "the oilandgas industry in alberta is becoming a greater of canada s total emissi..."
+      ]
+    },
+    "14": {
+      "size": 4,
+      "percentage": 0.6814310051107325,
+      "medoid_preview": "is ur face a turtle in the gulf of mexico cause my bp is going to make u a victim of this oil spill...",
+      "sample_texts": [
+        "a major oil spill has been reported off the coast of florida what are people liv...",
+        "is ur face a turtle in the gulf of mexico cause my bp is going to make u a victi...",
+        "of course if there s an oil spill then they d all be wearing shell..."
+      ]
+    },
+    "15": {
+      "size": 8,
+      "percentage": 1.362862010221465,
+      "medoid_preview": "actually the regulations are that insane now that if today someone would like to use homeopathy nons...",
+      "sample_texts": [
+        "harbison this entire glossary is i can t here is one you left off liberalism is ...",
+        "unpasteurized hormone free milk banned gmo high fructose corn syrup ubiquitous i...",
+        "actually the regulations are that insane now that if today someone would like to..."
+      ]
+    },
+    "17": {
+      "size": 6,
+      "percentage": 1.0221465076660987,
+      "medoid_preview": "hi fellow humans your number one polluting company microsoft that emits 16 million metric tons of ca...",
+      "sample_texts": [
+        "carbon can be viewed as the backbone element for all life on earth and yet we de...",
+        "hi fellow humans today we have everyone s favorite polluting company microsoft t...",
+        "hi fellow humans your number one polluting company microsoft that emits 16 milli..."
+      ]
+    },
+    "18": {
+      "size": 8,
+      "percentage": 1.362862010221465,
+      "medoid_preview": "oilspill twitter friends can anyone link me some papers on the environmental impact of an underwater...",
+      "sample_texts": [
+        "remember after the big bp oil spill all the investigating of the companies worki...",
+        "the corroded undersea pipeline ruptured north of refugio state beach in santa ba...",
+        "nagel presenting info on climate change and effects like asthma flooding etc on ..."
+      ]
+    },
+    "19": {
+      "size": 2,
+      "percentage": 0.34071550255536626,
+      "medoid_preview": "but you re not objective we cannot9 trust you to do an honest review or take account of alternate cl...",
+      "sample_texts": [
+        "but you re not objective we cannot9 trust you to do an honest review or take acc...",
+        "i find it hard to understand that the un is not pushing funding for sea walls as..."
+      ]
+    },
+    "20": {
+      "size": 16,
+      "percentage": 2.72572402044293,
+      "medoid_preview": "sanitation in oyo state is so bad waste collectors just do as they please everyone s waste drums ove...",
+      "sample_texts": [
+        "sri lankans speaking about a system change whilst they can t even dispose their ...",
+        "waste management given all the garbage he eats he d be hella good at it...",
+        "garbage remains a persistent problem in jayanagar follow to know more bangalore ..."
+      ]
+    },
+    "21": {
+      "size": 2,
+      "percentage": 0.34071550255536626,
+      "medoid_preview": "environmental pollution is caused by humans worrying environmental problems mainly include air pollu...",
+      "sample_texts": [
+        "environmental pollution is caused by humans worrying environmental problems main...",
+        "carbon dioxide is not pollution it s what plants eat to grow big and bountiful t..."
+      ]
+    },
+    "22": {
+      "size": 10,
+      "percentage": 1.7035775127768313,
+      "medoid_preview": "not enough car parking they should turn all those green spaces into car spaces who needs fresh air a...",
+      "sample_texts": [
+        "green spaces aren t just fun and games although they are that too they can be on...",
+        "we would not be allowed on the green spaces anymore amp our children would be ta...",
+        "i ca nt figure out how anyone sits in traffic everyday and can honestly say we n..."
+      ]
+    },
+    "23": {
+      "size": 5,
+      "percentage": 0.8517887563884157,
+      "medoid_preview": "the green extreme energy politic destroyed the european electric system not putin but it was dumb to...",
+      "sample_texts": [
+        "europeans increasingly burning trees for energy after green policies russian war...",
+        "the underlying strategy going on has nothing to do with east vs west it s about ...",
+        "we have the stupidest government in europe bundestag deputy sarah wagenknecht wh..."
+      ]
+    },
+    "24": {
+      "size": 8,
+      "percentage": 1.362862010221465,
+      "medoid_preview": "sad days for our environment loss of beautiful wildlife nature landscapes is unacceptable nothing gr...",
+      "sample_texts": [
+        "the uk is one of the most nature depleted countries on earth but organic farming...",
+        "our planet our health let s not indulge in blaming environmentalists governments...",
+        "avoigt this map is misleading it looks too green in reality deforestation is not..."
+      ]
+    },
+    "25": {
+      "size": 8,
+      "percentage": 1.362862010221465,
+      "medoid_preview": "climate change is another fabricated lie to control profits gain power over humanity so axe the carb...",
+      "sample_texts": [
+        "erm cheaper energy prices a sovereign fund sharing those revenues better energy ...",
+        "it is a shame that us of america is been destroy by natural disasters and none o...",
+        "spill oil into the ocean all that climate change gone to west..."
+      ]
+    },
+    "26": {
+      "size": 6,
+      "percentage": 1.0221465076660987,
+      "medoid_preview": "excessive use of chemicals in agriculture will definitely cause problems to its consumers as well as...",
+      "sample_texts": [
+        "gay man like indian food many of the spices are there to mask the taste of poor ...",
+        "are essential for improving soil health wangari maathai pointed out that tea has...",
+        "sorry that s bullshit demeter does have high standards for production yet their ..."
+      ]
+    },
+    "28": {
+      "size": 4,
+      "percentage": 0.6814310051107325,
+      "medoid_preview": "and this results in pollution when the mess is washed away and ends up in storm sewers there it find...",
+      "sample_texts": [
+        "besides i shit in a cat box just to save on water environmentallyfriendly...",
+        "as long as it works for you i have given up eating fish after the plastic pollut...",
+        "when you can t drink the water eat the food or breathe the air any longer due to..."
+      ]
+    },
+    "29": {
+      "size": 2,
+      "percentage": 0.34071550255536626,
+      "medoid_preview": "norway wind farm might close because it s too windy life in norway...",
+      "sample_texts": [
+        "norway wind farm might close because it s too windy life in norway...",
+        "you ve little idea how much oil is stored in every wind turbine..."
+      ]
+    },
+    "30": {
+      "size": 6,
+      "percentage": 1.0221465076660987,
+      "medoid_preview": "this is the result of too much food safety in the world...",
+      "sample_texts": [
+        "omgggggg now this is beyondmeat cannibal somebody please come and look at this...",
+        "peanut allergy is one of the most common causes of severe allergy attacks for so...",
+        "this is biological contamination of food the concepts of food hygiene are disapp..."
+      ]
+    },
+    "31": {
+      "size": 4,
+      "percentage": 0.6814310051107325,
+      "medoid_preview": "ar fryn oil i to would like less dependency on oil and gas you only look at the negatives but you th...",
+      "sample_texts": [
+        "no i still do not buy exxon gas because of the oil spill of the exxon valdez so ...",
+        "ar fryn oil i to would like less dependency on oil and gas you only look at the ...",
+        "nope never said that but nice projecting point is if you think evs are environme..."
+      ]
+    },
+    "32": {
+      "size": 6,
+      "percentage": 1.0221465076660987,
+      "medoid_preview": "nun exactly no problem with commercial farming of timber but if clearfelling old growth forest on la...",
+      "sample_texts": [
+        "the world s biggest tree burner drax sources wood from clearcut biodiverse fores...",
+        "amazon forest is crucial for the regulation of the planet s climate however due ...",
+        "big thanks to org one of our incredible partners along with other contributors w..."
+      ]
+    },
+    "33": {
+      "size": 8,
+      "percentage": 1.362862010221465,
+      "medoid_preview": "i confirm it s not what you farm it s what you become in the process eventually you will start becom...",
+      "sample_texts": [
+        "there is no such thing as empty land but what about west africa that had no empt...",
+        "okay i m all for suspension of disbelief in fantasy settings but you can not put...",
+        "especially contaminated land and subsurface mining..."
+      ]
+    },
+    "34": {
+      "size": 2,
+      "percentage": 0.34071550255536626,
+      "medoid_preview": "my menstrual cup can confirm that this is a big lie...",
+      "sample_texts": [
+        "my menstrual cup can confirm that this is a big lie...",
+        "the media and government are lying about global warming and hurricanes..."
+      ]
+    },
+    "35": {
+      "size": 2,
+      "percentage": 0.34071550255536626,
+      "medoid_preview": "the democrats every single republican in congress voted against the inflation reduction act to bring...",
+      "sample_texts": [
+        "the democrats every single republican in congress voted against the inflation re...",
+        "every single republican voted against the inflation reduction act a bill that br..."
+      ]
+    },
+    "36": {
+      "size": 7,
+      "percentage": 1.192504258943782,
+      "medoid_preview": "the thing about sustainable transport is it needs significant upfront investment as change needs to ...",
+      "sample_texts": [
+        "another problem is that car is usually faster than public transport in chch that...",
+        "no need urbanisation will lead to migration from other provinces not to mention ...",
+        "an increase in cost is often seen as a roadblock in sustainableproduct design bu..."
+      ]
+    },
+    "37": {
+      "size": 3,
+      "percentage": 0.5110732538330494,
+      "medoid_preview": "it s ironic that the green party leadership candidates who are running as co leaders are calling for...",
+      "sample_texts": [
+        "it s ironic that the green party leadership candidates who are running as co lea...",
+        "in a situation of a wholesale crisis of governance one ought not to look to the ...",
+        "ardern labour green party and the maori party are doing their best to destroy de..."
+      ]
+    },
+    "38": {
+      "size": 5,
+      "percentage": 0.8517887563884157,
+      "medoid_preview": "climate skeptics think the effect of global warming is a false alarm but we are already feeling the ...",
+      "sample_texts": [
+        "wow this dumm beach thinks that this has nothing to do with global warming and s...",
+        "for many years scientists have been warning about global warming and climate cha...",
+        "climate skeptics think the effect of global warming is a false alarm but we are ..."
+      ]
+    },
+    "39": {
+      "size": 3,
+      "percentage": 0.5110732538330494,
+      "medoid_preview": "south africa is the 12th largest greenhouse gas emitter in the world their emission status can large...",
+      "sample_texts": [
+        "south africa is the 12th largest greenhouse gas emitter in the world their emiss...",
+        "midway to the deadline for achieving sustainable development goals south africa ...",
+        "australia s dirtiest power plant responsible for more than 3 of the country s em..."
+      ]
+    },
+    "40": {
+      "size": 9,
+      "percentage": 1.5332197614991483,
+      "medoid_preview": "most people wouldn t eat a gmo why would they inject a gmo...",
+      "sample_texts": [
+        "veee instead of gmo s it ll be gmp s genetically modified people...",
+        "gmo s have never been a solution to food insecurity they reinforce corporate con...",
+        "could impossible burger s key gmo ingredient cause weight gain kidney disease in..."
+      ]
+    },
+    "41": {
+      "size": 4,
+      "percentage": 0.6814310051107325,
+      "medoid_preview": "lots of people in the comments hung up on the fact that capacity factors for wind and solar are low ...",
+      "sample_texts": [
+        "need to make sustainable like sun wind water energy readily available at low cos...",
+        "lots of people in the comments hung up on the fact that capacity factors for win...",
+        "you would need more than 3 million solar panels to produce the same amount of po..."
+      ]
+    },
+    "43": {
+      "size": 7,
+      "percentage": 1.192504258943782,
+      "medoid_preview": "got ta ban those out dated practices that cause unwanted pollutions that impact that climb mate chan...",
+      "sample_texts": [
+        "got ta ban those out dated practices that cause unwanted pollutions that impact ...",
+        "i see the government official has been removed but you re still officially my pm...",
+        "i d have stopped before the safety bit our bought government is making certain o..."
+      ]
+    },
+    "44": {
+      "size": 5,
+      "percentage": 0.8517887563884157,
+      "medoid_preview": "dear sir there is a huge scarcity of water at the place where we stand by for the last one year need...",
+      "sample_texts": [
+        "as a scandinavian my biggest issue in japan is drinking water i m sorry its just...",
+        "water crisis in sulabh awash sector 1 gomti nagar extension 226010 because may b...",
+        "faysu in karachi district west mominabad town mostly areas is badly effected sho..."
+      ]
+    },
+    "45": {
+      "size": 3,
+      "percentage": 0.5110732538330494,
+      "medoid_preview": "in my view i do not know why biden and harris do not go to mississippi and make an issue out of this...",
+      "sample_texts": [
+        "in my view i do not know why biden and harris do not go to mississippi and make ...",
+        "brett favre caught using welfare money meanwhile jackson mississippi has a water...",
+        "so you and your racist buddy have time to draft a letter on an issue that litera..."
+      ]
+    },
+    "46": {
+      "size": 5,
+      "percentage": 0.8517887563884157,
+      "medoid_preview": "stopped at public restrooms on the highway while visiting nw ia and was shocked at their condition d...",
+      "sample_texts": [
+        "two years of pandemic have given coloradans new ways of looking at the urban cen...",
+        "they built the bill clinton library in a blighted area in little rock amp still ...",
+        "it would be nice if the vacant city owned parcel a block from where i live in sa..."
+      ]
+    },
+    "47": {
+      "size": 8,
+      "percentage": 1.362862010221465,
+      "medoid_preview": "hurricane ian has nothing to do with so called climate change or global warming learn some science b...",
+      "sample_texts": [
+        "hurricane ian has nothing to do with so called climate change or global warming ...",
+        "hey dash there have been hurricanes for thousands of years the hot air that come...",
+        "on today s postreports national environmental reporter explained the expanding b..."
+      ]
+    },
+    "48": {
+      "size": 5,
+      "percentage": 0.8517887563884157,
+      "medoid_preview": "people vs fossil fuels responds to manchin s decision to remove his side deal from the continuing re...",
+      "sample_texts": [
+        "ak jeff look i believe they are they are great americans i feel like they have b...",
+        "university bans fossil fuel companies from recruiting students with careers serv...",
+        "people vs fossil fuels responds to manchin s decision to remove his side deal fr..."
+      ]
+    },
+    "49": {
+      "size": 9,
+      "percentage": 1.5332197614991483,
+      "medoid_preview": "gentle reminder that non human animals are conscious and not objects and that factory farming is hor...",
+      "sample_texts": [
+        "everything you hear on the media including this platform about food health is a ...",
+        "gentle reminder that non human animals are conscious and not objects and that fa...",
+        "in grasslands grazing animals are needed for a balanced and natural environment ..."
+      ]
+    },
+    "50": {
+      "size": 3,
+      "percentage": 0.5110732538330494,
+      "medoid_preview": "time to amp up the climate change fear mongering storm threatens village village save from storm bec...",
+      "sample_texts": [
+        "everyone has experienced climate chamge anxiety tara shared research on the effe...",
+        "greta has outgrown her usefulness in the global warming grift...",
+        "time to amp up the climate change fear mongering storm threatens village village..."
+      ]
+    },
+    "51": {
+      "size": 7,
+      "percentage": 1.192504258943782,
+      "medoid_preview": "you could mitigate that with gmo s and hydroponic farming but we are already using all the arable la...",
+      "sample_texts": [
+        "for rural communities food deserts and regions impacted by water shortages verti...",
+        "but to find a way to incentivize the population over long period of time to redu...",
+        "great idea alternative to polythene which is bio degradable is a must else polyt..."
+      ]
+    },
+    "52": {
+      "size": 13,
+      "percentage": 2.2146507666098807,
+      "medoid_preview": "there s evidence people want to do something to reduce their carbon footprint but not if it costs th...",
+      "sample_texts": [
+        "you re absolutely correct any lifecycle analysis software will support your poin...",
+        "how about some land preservation local and national levels all this talk of clim...",
+        "theterritory tells the human stories at the heart of environmental conflict we v..."
+      ]
+    },
+    "53": {
+      "size": 9,
+      "percentage": 1.5332197614991483,
+      "medoid_preview": "bill gates wants to force everyone to live off of his patent pending synthetic corn via this guy s s...",
+      "sample_texts": [
+        "gates forcing us to live off his patent synthetic corn eating gates frankenfood ...",
+        "bill gates buying up more farmland patented for gmo seeds crops and toxic chemic...",
+        "silicon valley has invested in plant based companies as well and while jeremy be..."
+      ]
+    },
+    "54": {
+      "size": 2,
+      "percentage": 0.34071550255536626,
+      "medoid_preview": "ai for sdgs in an increasingly turbulent world is an absolute necessity...",
+      "sample_texts": [
+        "ai for sdgs in an increasingly turbulent world is an absolute necessity...",
+        "i had to read it again too i don t think this says anything different than what ..."
+      ]
+    },
+    "55": {
+      "size": 3,
+      "percentage": 0.5110732538330494,
+      "medoid_preview": "happening now poor air quality...",
+      "sample_texts": [
+        "happening now poor air quality...",
+        "the whole area had seemed to be abandoned a minute ago and now this he scrunches...",
+        "the mountain has some pm10 airpollution..."
+      ]
+    },
+    "56": {
+      "size": 2,
+      "percentage": 0.34071550255536626,
+      "medoid_preview": "e atheist what we must become according to math sustainability atheism theheatdeath zeropoint ancien...",
+      "sample_texts": [
+        "notice in this education conference the basics math writing reading science are ...",
+        "e atheist what we must become according to math sustainability atheism theheatde..."
+      ]
+    },
+    "57": {
+      "size": 13,
+      "percentage": 2.2146507666098807,
+      "medoid_preview": "methane is a far more potent greenhouse gas than carbon dioxide this isn t helping the issue of clim...",
+      "sample_texts": [
+        "and has outsourcing a country s carbon footprint to countries who may prove prob...",
+        "methane leaks have become a top threat in the fight against climate change here ...",
+        "how many carbon credit penalty dollars does us get for sabotaging pipeline relea..."
+      ]
+    },
+    "58": {
+      "size": 2,
+      "percentage": 0.34071550255536626,
+      "medoid_preview": "texas abandoned area are tourist attractions...",
+      "sample_texts": [
+        "texas abandoned area are tourist attractions...",
+        "trek pax there are so many vacant warehouses in this area that is a lame excuse..."
+      ]
+    },
+    "59": {
+      "size": 5,
+      "percentage": 0.8517887563884157,
+      "medoid_preview": "bullshit global warming and global cooling is fake...",
+      "sample_texts": [
+        "climate change is a hoax it s obviously caused by jesus being angry duh carbon d...",
+        "imagine if you had a brain and realized global warming is fake...",
+        "climate change is fuckin real why do you think we re having all the crazy weathe..."
+      ]
+    },
+    "60": {
+      "size": 6,
+      "percentage": 1.0221465076660987,
+      "medoid_preview": "no the goal is to transition to solar wind electric we won t be dealing with these types of pollutio...",
+      "sample_texts": [
+        "but energy generation isn t a monopoly competition is desirable is the plan to m...",
+        "it means putting more stress on an already overwhelmed electric grid combine tha...",
+        "however this rapid progress can not be made at the expense of social justice the..."
+      ]
+    },
+    "61": {
+      "size": 2,
+      "percentage": 0.34071550255536626,
+      "medoid_preview": "environmental social and governance esg is the left s radical agenda all wrapped up in the guise of ...",
+      "sample_texts": [
+        "environmental social and governance esg is the left s radical agenda all wrapped...",
+        "sloan oh shock horror a racist that also doesn t agree with the sustainable deve..."
+      ]
+    },
+    "62": {
+      "size": 4,
+      "percentage": 0.6814310051107325,
+      "medoid_preview": "australian food is grown with dangerous chemicals banned in other countries food safety the guardian...",
+      "sample_texts": [
+        "australian food is grown with dangerous chemicals banned in other countries the ...",
+        "australian food is grown with dangerous chemicals banned in other countries food...",
+        "it is feasible to halve australia s foodwaste by 2030 but it will require unprec..."
+      ]
+    },
+    "64": {
+      "size": 2,
+      "percentage": 0.34071550255536626,
+      "medoid_preview": "yep the gas engine leaf blowers blast the burbs all day everyday with ear piercing noise dust carbon...",
+      "sample_texts": [
+        "yep the gas engine leaf blowers blast the burbs all day everyday with ear pierci...",
+        "why not bam firecrackers which just lead to noise and air pollution pollution ba..."
+      ]
+    },
+    "65": {
+      "size": 3,
+      "percentage": 0.5110732538330494,
+      "medoid_preview": "liz truss s net zero review to be led by creator of current policy joke via sceptics...",
+      "sample_texts": [
+        "garrard she s a the libs follow the science as in follow the net zero cult actua...",
+        "who wants liz truss s bonfire of net zero red tape not big business for a start ...",
+        "liz truss s net zero review to be led by creator of current policy joke via scep..."
+      ]
+    },
+    "66": {
+      "size": 18,
+      "percentage": 3.0664395229982966,
+      "medoid_preview": "remember that conservative politicians don t believe in climate change climatechange nevervoteconser...",
+      "sample_texts": [
+        "for 4 years trump amp the republicans said there is no global warming so they di...",
+        "your semi regular reminder that pundits policy wonks who don t take climate chan...",
+        "climate change is going to get out of control when republicans take over..."
+      ]
+    },
+    "67": {
+      "size": 2,
+      "percentage": 0.34071550255536626,
+      "medoid_preview": "i never switch the heating on it s a myth that you need to i heat the room i m in the house has no d...",
+      "sample_texts": [
+        "i never switch the heating on it s a myth that you need to i heat the room i m i...",
+        "it s fairly chilly in our house just 17 c but no way i m already firing up the c..."
+      ]
+    },
+    "68": {
+      "size": 7,
+      "percentage": 1.192504258943782,
+      "medoid_preview": "with the current energy crisis why are the lights in graigwen left on all night i live in park prosp...",
+      "sample_texts": [
+        "shame with all proofs of unauthorised encroachment in green park society governm...",
+        "i completely understand what the government is trying to do but isn t this polic...",
+        "prue bowen lives on a different planet wind and power means back to the horse an..."
+      ]
+    },
+    "69": {
+      "size": 15,
+      "percentage": 2.555366269165247,
+      "medoid_preview": "never let a crisis go to waste right storm is not caused by climatechange do better livenotbylies...",
+      "sample_texts": [
+        "another brainwashed climate alarmist mug back in the 90 s you mean back when the...",
+        "the storm inundated the homes of thousands of floridians who don t have flood in...",
+        "never let a crisis go to waste right storm is not caused by climatechange do bet..."
+      ]
+    },
+    "70": {
+      "size": 7,
+      "percentage": 1.192504258943782,
+      "medoid_preview": "yeah but zero emission coal energy does actually exist it s just horrendously expensive and unreliab...",
+      "sample_texts": [
+        "zero co2 was never elons goal sustainable transport is besides the multi planeta...",
+        "there is no market for blue hydrogen nor is the technology to capture and store ...",
+        "david while coal may no longer be king in cape breton the black fossil fuel is s..."
+      ]
+    },
+    "72": {
+      "size": 2,
+      "percentage": 0.34071550255536626,
+      "medoid_preview": "big oil s toxic emissions from flaring undeclared climatecrisis climatechange extinctionrebellion po...",
+      "sample_texts": [
+        "big oil s toxic emissions from flaring undeclared climatecrisis climatechange ex...",
+        "the emission was observed at an oil and gas platform in the gulf of mexico off t..."
+      ]
+    },
+    "73": {
+      "size": 2,
+      "percentage": 0.34071550255536626,
+      "medoid_preview": "one must wonder why oil production continues to be stagnant or decreasing world wide while showing q...",
+      "sample_texts": [
+        "one must wonder why oil production continues to be stagnant or decreasing world ...",
+        "and then watch red green zones start popping up oil gas lng amp especially offsh..."
+      ]
+    },
+    "75": {
+      "size": 4,
+      "percentage": 0.6814310051107325,
+      "medoid_preview": "unfortunately russia is the world s largest exporter of nuclear plants but south korea has said that...",
+      "sample_texts": [
+        "multiple reports that the zaporizhzhya nuclear power plant was on fire and that ...",
+        "unfortunately russia is the world s largest exporter of nuclear plants but south...",
+        "eurostat i found you longer version also you can see they all get up fake as fuc..."
+      ]
+    },
+    "76": {
+      "size": 8,
+      "percentage": 1.362862010221465,
+      "medoid_preview": "moderate it does europe is under stress regarding energy resources nord stream pipes were available ...",
+      "sample_texts": [
+        "if anyone wondered if fossil fuel companies give a damn about europeans dying th...",
+        "we are long past that point germany had already written off ns2 completely russi...",
+        "biden admin amp us are blaming russia for the nord stream 2 oil spill 7 months a..."
+      ]
+    },
+    "77": {
+      "size": 6,
+      "percentage": 1.0221465076660987,
+      "medoid_preview": "so much pollutions both air and noise...",
+      "sample_texts": [
+        "a single space tourism flight produces as much pollution as a 10 hour transatlan...",
+        "children in homes with a gas stove are over 40 more likely to have asthma state ...",
+        "china is filthy polluted land rivers and air..."
+      ]
+    },
+    "78": {
+      "size": 5,
+      "percentage": 0.8517887563884157,
+      "medoid_preview": "this is how the uk will look if our net zero obsessed govt get their way but china will get richer...",
+      "sample_texts": [
+        "this is how the uk will look if our net zero obsessed govt get their way but chi...",
+        "and 70bn to make govt depts net zero compliant...",
+        "first the government was not resuming x1 visa now universities not giving us noc..."
+      ]
+    },
+    "79": {
+      "size": 5,
+      "percentage": 0.8517887563884157,
+      "medoid_preview": "we remember how hysterical the greens would get over oil spills that killed a number of birds but ap...",
+      "sample_texts": [
+        "i will debunk that you couldn t possibly know as i presume you haven t seen the ...",
+        "h e museveni is right every single word concerning the environment spoken from a...",
+        "we remember how hysterical the greens would get over oil spills that killed a nu..."
+      ]
+    },
+    "80": {
+      "size": 3,
+      "percentage": 0.5110732538330494,
+      "medoid_preview": "if yo stole our money robbed us pay me us before i press charges against you if you sold bad food i ...",
+      "sample_texts": [
+        "if yo stole our money robbed us pay me us before i press charges against you if ...",
+        "strangest customer service policy ever only let you complain about one thing a d...",
+        "dabell it s illegal to use a legal name read amp share the bccrss kill a demon s..."
+      ]
+    },
+    "81": {
+      "size": 2,
+      "percentage": 0.34071550255536626,
+      "medoid_preview": "the joint security rapid response unit has recovered an abandoned unexploded explosive in mbale city...",
+      "sample_texts": [
+        "the joint security rapid response unit has recovered an abandoned unexploded exp...",
+        "refugee near me two new build developments happened on contaminated land locals ..."
+      ]
+    },
+    "82": {
+      "size": 3,
+      "percentage": 0.5110732538330494,
+      "medoid_preview": "i ve been researching buying undeveloped land for building on to make an offer it looks like you ll ...",
+      "sample_texts": [
+        "i wouldn t rest for min two years buy up every for closed property i can on purp...",
+        "i ve been researching buying undeveloped land for building on to make an offer i...",
+        "i am buying it but why crammed in so close and there is still alot of land ameri..."
+      ]
+    },
+    "83": {
+      "size": 2,
+      "percentage": 0.34071550255536626,
+      "medoid_preview": "we each can interpret that different and still be in green light territory for me i want an inclusiv...",
+      "sample_texts": [
+        "we each can interpret that different and still be in green light territory for m...",
+        "in general people consider being helpful as a positive trait so you might not id..."
+      ]
+    },
+    "84": {
+      "size": 13,
+      "percentage": 2.2146507666098807,
+      "medoid_preview": "absolutely climate change will not wait on us so we have to act please consider donating to us as we...",
+      "sample_texts": [
+        "ok we have now spaffed 300 m on a space bumper car to move an asteroid off its c...",
+        "climate change undermines the human rights to water sanitation and health by int...",
+        "your state also needs to act on climate change pronto or large parts of it are g..."
+      ]
+    },
+    "85": {
+      "size": 4,
+      "percentage": 0.6814310051107325,
+      "medoid_preview": "sandra those leases were blocked because of legal disputes weren t even set up for oil production ye...",
+      "sample_texts": [
+        "again don t let this story disappear after the bp oil spill well known lawyer mi...",
+        "sandra those leases were blocked because of legal disputes weren t even set up f...",
+        "obama put drilling moratoriums in place all off shore drilling in the gulf was c..."
+      ]
+    },
+    "86": {
+      "size": 3,
+      "percentage": 0.5110732538330494,
+      "medoid_preview": "also if we all die in a nuclear holocaust because putin messed with joe biden s incredibly corrupt u...",
+      "sample_texts": [
+        "state joe biden just created the largest methane global warming disaster in hist...",
+        "also if we all die in a nuclear holocaust because putin messed with joe biden s ...",
+        "believe it or not ukraine is the inflection point of the world order look at how..."
+      ]
+    },
+    "87": {
+      "size": 4,
+      "percentage": 0.6814310051107325,
+      "medoid_preview": "sdgs nigeria sdgfinance undp only can end illegal tax collection police brutality looting of govt fu...",
+      "sample_texts": [
+        "sdgs nigeria sdgfinance undp only can end illegal tax collection police brutalit...",
+        "government of nigeria enugu state is a land endowed with enough natural resource...",
+        "the sdgs can not be realized by 2030 without full implementation of social prote..."
+      ]
+    },
+    "90": {
+      "size": 5,
+      "percentage": 0.8517887563884157,
+      "medoid_preview": "gmo crap no thanks...",
+      "sample_texts": [
+        "gmo crap no thanks...",
+        "most of this variety a gmo with poncho votivo and poncho fs 600 treatment als re...",
+        "sharma that s nothing but gmo lab made shi..."
+      ]
+    },
+    "92": {
+      "size": 3,
+      "percentage": 0.5110732538330494,
+      "medoid_preview": "rees mogg so we are cutting our carbon emissions with wind turbines but potentially balancing that b...",
+      "sample_texts": [
+        "i hate that the solution to the water crisis is literally just build a fucking t...",
+        "sharkey 5 months since their riverpollution crisis talk new liztruss gov reverse...",
+        "rees mogg so we are cutting our carbon emissions with wind turbines but potentia..."
+      ]
+    },
+    "93": {
+      "size": 4,
+      "percentage": 0.6814310051107325,
+      "medoid_preview": "organic farming can if only people change their mindset and instead of farming for business and forg...",
+      "sample_texts": [
+        "organic farming can if only people change their mindset and instead of farming f...",
+        "we have lost our indigenous rice verities we moved towards commercial agricultur...",
+        "oh i know that a lot of chefs are very particular about sourcing but very few i ..."
+      ]
+    },
+    "94": {
+      "size": 6,
+      "percentage": 1.0221465076660987,
+      "medoid_preview": "everything this party has done directly contradicts the lies propaganda you are spreading justinflat...",
+      "sample_texts": [
+        "this is your platform if republicans gave a fuck about gas prices they would ve ...",
+        "everything this party has done directly contradicts the lies propaganda you are ...",
+        "dale why don t you blame trudeau s massive carbon footprint..."
+      ]
+    },
+    "95": {
+      "size": 8,
+      "percentage": 1.362862010221465,
+      "medoid_preview": "yes please and fast government accc set sights on carboncredit fraud and corporate greenwashing the ...",
+      "sample_texts": [
+        "please pass this on to all the brainy ngos that claim there is no carbon leakage...",
+        "yep and our grid is over taxed already it s all fraud the entire regime is based...",
+        "did carbon capture cassidy release his months long hold on biden s 4 epa nominee..."
+      ]
+    },
+    "96": {
+      "size": 7,
+      "percentage": 1.192504258943782,
+      "medoid_preview": "protecting the planet is one thing but mcdonalds can t guarantee the customer s health with ultra pr...",
+      "sample_texts": [
+        "this is an alternative how about you check the sodium content the salt alone wil...",
+        "yea i ate real meat recently and i won t be consuming gmo particle board pattie ...",
+        "lol bloomberg calling it fake meat is kinda crazy same organization calls it alt..."
+      ]
+    },
+    "97": {
+      "size": 6,
+      "percentage": 1.0221465076660987,
+      "medoid_preview": "how is wind and solar going to meet our energy demands we are following green peace this requires in...",
+      "sample_texts": [
+        "is thorium the leading element for a future of green energy check out the pros a...",
+        "we aren t powered by wind energy...",
+        "how is wind and solar going to meet our energy demands we are following green pe..."
+      ]
+    },
+    "99": {
+      "size": 5,
+      "percentage": 0.8517887563884157,
+      "medoid_preview": "vegans be tryin tuh make they own meat alternative and season it like iss meat like bro juss go eat ...",
+      "sample_texts": [
+        "i mean you re being small minded to think people don t eat meat just because of ...",
+        "and you are a doctor plant based is the way to go for your health the animals an...",
+        "i could never go full vegan because bacon i have yet to find an alternative meat..."
+      ]
+    },
+    "101": {
+      "size": 2,
+      "percentage": 0.34071550255536626,
+      "medoid_preview": "the urban planning specific one is wild tbh and calls it a caste system which really sends me...",
+      "sample_texts": [
+        "the urban planning specific one is wild tbh and calls it a caste system which re...",
+        "debates in karnataka are all about percentages 10 40 etc one i am sure about is ..."
+      ]
+    },
+    "102": {
+      "size": 4,
+      "percentage": 0.6814310051107325,
+      "medoid_preview": "well to prevent the oil spill from getting worse you all need to get vaccinated...",
+      "sample_texts": [
+        "i don t because i don t want to live through polio smallpox whooping cough dipht...",
+        "they want you to spill the oil that taylor extracted from the ground all over th...",
+        "well to prevent the oil spill from getting worse you all need to get vaccinated..."
+      ]
+    },
+    "107": {
+      "size": 3,
+      "percentage": 0.5110732538330494,
+      "medoid_preview": "beyond the effects of the health crisis the tunisian tourism sector continues to suffer from its str...",
+      "sample_texts": [
+        "unfortunately not the most inclusive panel for worldtourismday when sdg5 and dei...",
+        "beyond the effects of the health crisis the tunisian tourism sector continues to...",
+        "if govt hotel owners being very assertive the casino gaming is game changer to d..."
+      ]
+    },
+    "108": {
+      "size": 3,
+      "percentage": 0.5110732538330494,
+      "medoid_preview": "media phaa the health consequences of fossil fuel combustion are happening now directly from airpoll...",
+      "sample_texts": [
+        "fossil fuels make up 90 of middle east air pollution study 2022 09 22 17 10...",
+        "media phaa the health consequences of fossil fuel combustion are happening now d...",
+        "the impact of increasing air pollution is more dangerous than you think if air p..."
+      ]
+    },
+    "109": {
+      "size": 11,
+      "percentage": 1.8739352640545146,
+      "medoid_preview": "robert on a14 in my opinion it s not the gmo process itself that s the problem it s that it s being ...",
+      "sample_texts": [
+        "gmo corn is one of the most hazardous foods for human health...",
+        "gmo not healthy for africa...",
+        "stop eating their gmo and pesticide ridden food glyphosate ampa poea aka roundup..."
+      ]
+    },
+    "111": {
+      "size": 5,
+      "percentage": 0.8517887563884157,
+      "medoid_preview": "water is clean energy but the goverment ca nt make any money from it they make far more with green a...",
+      "sample_texts": [
+        "equity yes but urban rural is just part of that story distribution of human wate...",
+        "water is clean energy but the goverment ca nt make any money from it they make f...",
+        "njoko eff mayor in dr ruth mompati municipality has done nothing to end the wate..."
+      ]
+    },
+    "112": {
+      "size": 10,
+      "percentage": 1.7035775127768313,
+      "medoid_preview": "stop supporting the carbon tax...",
+      "sample_texts": [
+        "if you think you get back what you paid into carbon tax as a rebate you are a me...",
+        "not only are ldcs bearing the brunt of the devastating consequences of climatech...",
+        "let s let brett pollute for free and then get more tax breaks and subsidies from..."
+      ]
+    },
+    "115": {
+      "size": 7,
+      "percentage": 1.192504258943782,
+      "medoid_preview": "environmentalism requires the wholehearted embrace of gmo and nuclear power technology to reduce env...",
+      "sample_texts": [
+        "and building mines is not a threat to environment and populations destruction of...",
+        "environment protection is a serious issue when activists reduce environmentalism...",
+        "organizations committed to reducing waste and energy consumption often overlook ..."
+      ]
+    },
+    "116": {
+      "size": 6,
+      "percentage": 1.0221465076660987,
+      "medoid_preview": "at goalkeepers gates proposed gmo corn as a solution to climate change in africa he doesn t want afr...",
+      "sample_texts": [
+        "we need policies that support small scale farmers we say no to gmo small scale f...",
+        "at goalkeepers gates proposed gmo corn as a solution to climate change in africa...",
+        "farmers coach tips the influence of a gmo organism on the food chain can damage ..."
+      ]
+    }
+  }
+}
