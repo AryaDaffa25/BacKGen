@@ -2,6 +2,7 @@ import numpy as np
 import json
 import os
 import argparse
+import time
 from sentence_transformers import SentenceTransformer
 import pickle
 from tqdm import tqdm
@@ -107,7 +108,7 @@ def generate_polarity_embeddings(positive_file, negative_file, output_dir,
     os.makedirs(output_dir, exist_ok=True)
     
     results = {}
-    
+    start_time = time.time()
     # Process positive data
     print("\n=== PROCESSING POSITIVE DATA ===")
     positive_basename = os.path.splitext(os.path.basename(positive_file))[0]
@@ -137,7 +138,8 @@ def generate_polarity_embeddings(positive_file, negative_file, output_dir,
         'metadata': neg_metadata,
         'count': len(neg_texts)
     }
-    
+    end_time = time.time()
+    print(f"\n⏱️ Total runtime embedding generation: {end_time - start_time:.2f} detik")
     return results
 
 

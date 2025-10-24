@@ -3,6 +3,7 @@ import json
 import numpy as np
 import os
 import argparse
+import time
 from sklearn.cluster import KMeans
 from sklearn.metrics import silhouette_score
 from sklearn.metrics.pairwise import euclidean_distances
@@ -375,11 +376,13 @@ def cluster_polarity_data(positive_pkl, positive_jsonl, negative_pkl, negative_j
     Returns:
         dict: Clustering results for both polarities
     """
+    start_time_total = time.time()
     clusterer = SBERTClusterer()
     results = {}
     
     # Process positive data
     print("=== CLUSTERING POSITIVE DATA ===")
+    start_time_pos = time.time()
     pos_embeddings, pos_texts = clusterer.load_embeddings_and_texts(positive_pkl, positive_jsonl)
     
     if evaluate_k:
@@ -400,6 +403,8 @@ def cluster_polarity_data(positive_pkl, positive_jsonl, negative_pkl, negative_j
     # Save positive results
     clusterer.save_clustering_results(pos_labels, pos_analysis, pos_texts, 
                                      positive_jsonl, output_dir, 'positive')
+    end_time_pos = time.time()
+    print(f"\n🕒 Waktu clustering positif: {end_time_pos - start_time_pos:.2f} detik")
     
     results['positive'] = {
         'k': pos_k,
@@ -409,6 +414,7 @@ def cluster_polarity_data(positive_pkl, positive_jsonl, negative_pkl, negative_j
     
     # Process negative data
     print("\n=== CLUSTERING NEGATIVE DATA ===")
+    start_time_neg = time.time()
     neg_embeddings, neg_texts = clusterer.load_embeddings_and_texts(negative_pkl, negative_jsonl)
     
     if evaluate_k:
@@ -429,13 +435,16 @@ def cluster_polarity_data(positive_pkl, positive_jsonl, negative_pkl, negative_j
     # Save negative results
     clusterer.save_clustering_results(neg_labels, neg_analysis, neg_texts,
                                      negative_jsonl, output_dir, 'negative')
+    end_time_neg = time.time()
+    print(f"\n🕒 Waktu clustering negatif: {end_time_neg - start_time_neg:.2f} detik")
     
     results['negative'] = {
         'k': neg_k,
         'labels': neg_labels,
         'analysis': neg_analysis
     }
-    
+    total_time = time.time() - start_time_total
+    print(f"\n⏱️ Total runtime clustering: {total_time:.2f} detik")
     return results
 
 def main():
